@@ -1,14 +1,32 @@
 PODS:
-  - YJCocoa/CocoaTouchLayer/UIKit/ViewGeometry (3.0.0)
-  - YJCocoa/CoreOSLayer/System (3.0.0)
-  - YJCocoa/CoreServicesLayer/Foundation/Other (3.0.0)
+  - YJCocoa (3.1.0):
+    - YJCocoa/System (= 3.1.0)
+  - YJCocoa/System (3.1.0):
+    - YJCocoa/System/Dispatch (= 3.1.0)
+    - YJCocoa/System/Security (= 3.1.0)
+  - YJCocoa/System/Dispatch (3.1.0)
+  - YJCocoa/System/Security (3.1.0):
+    - YJCocoa/System/Security/Keychain (= 3.1.0)
+    - YJCocoa/System/Security/Random (= 3.1.0)
+  - YJCocoa/System/Security/Keychain (3.1.0):
+    - YJCocoa/System/Security/Keychain/Item (= 3.1.0)
+  - YJCocoa/System/Security/Keychain/Item (3.1.0)
+  - YJCocoa/System/Security/Random (3.1.0)
 
 DEPENDENCIES:
-  - YJCocoa/CocoaTouchLayer/UIKit/ViewGeometry
-  - YJCocoa/CoreOSLayer/System
-  - YJCocoa/CoreServicesLayer/Foundation/Other
+  - YJCocoa (from `https://github.com/937447974/YJCocoa.git`, branch `developer`)
+
+EXTERNAL SOURCES:
+  YJCocoa:
+    :branch: developer
+    :git: https://github.com/937447974/YJCocoa.git
+
+CHECKOUT OPTIONS:
+  YJCocoa:
+    :commit: 6127278affd9fd84c18a0e93b519e45eb2b0c4df
+    :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
-  YJCocoa: ec4f19e1f73dddd4f8257b6816531bc2aa697e98
+  YJCocoa: 9e39bc75498fb45b1f7bcd4c5f3f893039f5eed6
 
 COCOAPODS: 0.39.0
