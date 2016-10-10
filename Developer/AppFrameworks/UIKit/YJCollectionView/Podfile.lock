@@ -4,6 +4,7 @@ PODS:
     - YJCocoa/System (= 3.1.0)
   - YJCocoa/AppFrameworks (3.1.0):
     - YJCocoa/AppFrameworks/Foundation (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit (= 3.1.0)
   - YJCocoa/AppFrameworks/Foundation (3.1.0):
     - YJCocoa/AppFrameworks/Foundation/DictionaryModel (= 3.1.0)
     - YJCocoa/AppFrameworks/Foundation/Http (= 3.1.0)
@@ -24,6 +25,9 @@ PODS:
     - YJCocoa/AppFrameworks/Foundation/PerformSelector
     - YJCocoa/AppFrameworks/Foundation/Singleton
     - YJCocoa/System/Security/Random
+  - YJCocoa/AppFrameworks/UIKit (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/ViewGeometry (= 3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (3.1.0)
   - YJCocoa/System (3.1.0):
     - YJCocoa/System/Dispatch (= 3.1.0)
     - YJCocoa/System/Security (= 3.1.0)
@@ -46,10 +50,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YJCocoa:
-    :commit: 09cad54f79fca96628bedcf2b7f6d872da14f618
+    :commit: 43d70e9d01e784b94995140f81a11c79c5badb5b
     :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
-  YJCocoa: c4cd2943846edb5bab123bfcdb89b6a6ea37de53
+  YJCocoa: 59f2a1519f634baf83e1569ab1cf2ce3cd07773c
 
 COCOAPODS: 0.39.0

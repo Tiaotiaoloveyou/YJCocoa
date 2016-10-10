@@ -89,6 +89,15 @@
               "source_files": "Cocoa/AppFrameworks/Foundation/Other/*.{h,m}"
             }
           ]
+        },
+        {
+          "name": "UIKit",
+          "subspecs": [
+            {
+              "name": "ViewGeometry",
+              "source_files": "Cocoa/CocoaTouchLayer/UIKit/ViewGeometry/*.{h,m}"
+            }
+          ]
         }
       ]
     },
