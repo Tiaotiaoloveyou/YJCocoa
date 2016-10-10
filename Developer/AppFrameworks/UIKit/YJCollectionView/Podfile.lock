@@ -50,10 +50,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YJCocoa:
-    :commit: 43d70e9d01e784b94995140f81a11c79c5badb5b
+    :commit: e4a20d34e0b7fb8abcfd47fc07876bf00173b319
     :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
-  YJCocoa: 59f2a1519f634baf83e1569ab1cf2ce3cd07773c
+  YJCocoa: 543ef8757d5ff5cb4f4696591dc399481e9dd355
 
 COCOAPODS: 0.39.0

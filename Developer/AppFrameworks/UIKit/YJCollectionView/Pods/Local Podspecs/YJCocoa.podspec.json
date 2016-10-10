@@ -95,7 +95,7 @@
           "subspecs": [
             {
               "name": "ViewGeometry",
-              "source_files": "Cocoa/CocoaTouchLayer/UIKit/ViewGeometry/*.{h,m}"
+              "source_files": "Cocoa/AppFrameworks/UIKit/ViewGeometry/*.{h,m}"
             }
           ]
         }
