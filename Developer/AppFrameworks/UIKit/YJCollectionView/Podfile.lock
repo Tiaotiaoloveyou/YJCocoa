@@ -1,6 +1,29 @@
 PODS:
   - YJCocoa (3.1.0):
+    - YJCocoa/AppFrameworks (= 3.1.0)
     - YJCocoa/System (= 3.1.0)
+  - YJCocoa/AppFrameworks (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation (= 3.1.0)
+  - YJCocoa/AppFrameworks/Foundation (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/DictionaryModel (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/Http (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/Log (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/Other (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/PerformSelector (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/Singleton (= 3.1.0)
+    - YJCocoa/AppFrameworks/Foundation/Timer (= 3.1.0)
+  - YJCocoa/AppFrameworks/Foundation/DictionaryModel (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/Singleton
+  - YJCocoa/AppFrameworks/Foundation/Http (3.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Log (3.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Other (3.1.0)
+  - YJCocoa/AppFrameworks/Foundation/PerformSelector (3.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Singleton (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/Other
+  - YJCocoa/AppFrameworks/Foundation/Timer (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/PerformSelector
+    - YJCocoa/AppFrameworks/Foundation/Singleton
+    - YJCocoa/System/Security/Random
   - YJCocoa/System (3.1.0):
     - YJCocoa/System/Dispatch (= 3.1.0)
     - YJCocoa/System/Security (= 3.1.0)
@@ -23,10 +46,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YJCocoa:
-    :commit: 2433c215f82463096955ec00e03c6b37b817ab14
+    :commit: 09cad54f79fca96628bedcf2b7f6d872da14f618
     :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
-  YJCocoa: 9e39bc75498fb45b1f7bcd4c5f3f893039f5eed6
+  YJCocoa: c4cd2943846edb5bab123bfcdb89b6a6ea37de53
 
 COCOAPODS: 0.39.0
