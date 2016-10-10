@@ -23,7 +23,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YJCocoa:
-    :commit: 6127278affd9fd84c18a0e93b519e45eb2b0c4df
+    :commit: 2433c215f82463096955ec00e03c6b37b817ab14
     :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
