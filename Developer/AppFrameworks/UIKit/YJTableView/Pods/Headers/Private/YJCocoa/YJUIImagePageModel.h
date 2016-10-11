@@ -1,0 +1,1 @@
+../../../YJCocoa/Cocoa/AppFrameworks/UIKit/PageView/ImagePage/YJUIImagePageModel.h

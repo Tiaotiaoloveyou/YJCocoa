@@ -1,0 +1,1 @@
+../../../YJCocoa/Cocoa/AppFrameworks/UIKit/TableView/Suspension/YJUiSuspensionCellView.h

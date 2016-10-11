@@ -27,6 +27,12 @@ PODS:
     - YJCocoa/System/Security/Random
   - YJCocoa/AppFrameworks/UIKit (3.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/CollectionView (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/InputLength (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/NavigationBar (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/PageView (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/TableView (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/ViewGeometry (= 3.1.0)
     - YJCocoa/AppFrameworks/UIKit/ViewGeometry (= 3.1.0)
   - YJCocoa/AppFrameworks/UIKit/AutoLayout (3.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 3.1.0)
@@ -40,6 +46,39 @@ PODS:
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
   - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (3.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
+  - YJCocoa/AppFrameworks/UIKit/CollectionView (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/CollectionView/CollectionCellObject (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/CollectionView/Core (= 3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/CollectionView/CollectionCellObject (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/Other
+    - YJCocoa/AppFrameworks/UIKit/ViewGeometry
+    - YJCocoa/System/Dispatch
+  - YJCocoa/AppFrameworks/UIKit/CollectionView/Core (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/CollectionView/CollectionCellObject
+  - YJCocoa/AppFrameworks/UIKit/InputLength (3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/NavigationBar (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/NavigationBar/Core (= 3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/NavigationBar/Core (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/ViewGeometry
+  - YJCocoa/AppFrameworks/UIKit/PageView (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/PageView/Core (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/PageView/ImagePage (= 3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/PageView/Core (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/Other
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout
+    - YJCocoa/System/Dispatch
+  - YJCocoa/AppFrameworks/UIKit/PageView/ImagePage (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/PageView/Core
+  - YJCocoa/AppFrameworks/UIKit/TableView (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/TableView/Core (= 3.1.0)
+    - YJCocoa/AppFrameworks/UIKit/TableView/TableCellObject (= 3.1.0)
+  - YJCocoa/AppFrameworks/UIKit/TableView/Core (3.1.0):
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout
+    - YJCocoa/AppFrameworks/UIKit/TableView/TableCellObject
+    - YJCocoa/AppFrameworks/UIKit/ViewGeometry
+    - YJCocoa/System/Dispatch
+  - YJCocoa/AppFrameworks/UIKit/TableView/TableCellObject (3.1.0):
+    - YJCocoa/AppFrameworks/Foundation/Other
   - YJCocoa/AppFrameworks/UIKit/ViewGeometry (3.1.0)
   - YJCocoa/System (3.1.0):
     - YJCocoa/System/Dispatch (= 3.1.0)
@@ -63,10 +102,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   YJCocoa:
-    :commit: 7e160297f8097da6f21de9f152eceb67a3120214
+    :commit: d136f398329ea517c178b4975e282775be57a176
     :git: https://github.com/937447974/YJCocoa.git
 
 SPEC CHECKSUMS:
-  YJCocoa: 84eec4bb4e91d483444f5380b2f5297fd867620d
+  YJCocoa: 28c25a0f07d59dd9c64b06a3a23dd66ce0a9a29e
 
 COCOAPODS: 0.39.0

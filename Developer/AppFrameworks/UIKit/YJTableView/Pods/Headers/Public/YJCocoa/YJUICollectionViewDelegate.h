@@ -1,0 +1,1 @@
+../../../YJCocoa/Cocoa/AppFrameworks/UIKit/CollectionView/Delegate/YJUICollectionViewDelegate.h

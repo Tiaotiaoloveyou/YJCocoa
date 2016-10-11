@@ -1,0 +1,1 @@
+../../../YJCocoa/Cocoa/AppFrameworks/UIKit/CollectionView/CollectionCellObject/YJUICollectionCellObject.h
