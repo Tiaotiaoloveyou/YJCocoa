@@ -1,1 +1,0 @@
-../../../YJCocoa/Cocoa/AppFrameworks/UIKit/TableView/TableCell/YJUITableViewCell.h

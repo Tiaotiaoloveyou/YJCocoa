@@ -1,1 +1,0 @@
-../../../YJCocoa/Cocoa/AppFrameworks/UIKit/CollectionView/CollectionCell/YJUICollectionReusableView.h
