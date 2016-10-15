@@ -1,27 +1,29 @@
 PODS:
-  - YJCocoa/AppFrameworks/Foundation/Other (4.0.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout (4.0.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 4.0.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (= 4.0.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (= 4.0.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (= 4.0.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (4.0.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (4.0.0):
+  - YJCocoa/AppFrameworks/Foundation/AOP (4.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Other (4.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout (4.1.0):
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 4.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (= 4.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (= 4.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (= 4.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (4.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (4.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (4.0.0):
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (4.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (4.0.0):
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (4.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
-  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (4.0.0)
-  - YJCocoa/System/Dispatch (4.0.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (4.1.0)
+  - YJCocoa/System/Dispatch (4.1.0)
 
 DEPENDENCIES:
+  - YJCocoa/AppFrameworks/Foundation/AOP
   - YJCocoa/AppFrameworks/Foundation/Other
   - YJCocoa/AppFrameworks/UIKit/AutoLayout
   - YJCocoa/AppFrameworks/UIKit/ViewGeometry
   - YJCocoa/System/Dispatch
 
 SPEC CHECKSUMS:
-  YJCocoa: 6fb0c19957c8caae575b6fba2663a28517bb5514
+  YJCocoa: 4d81110c07ecbe72a92ec0770abedb25e0f831c2
 
 COCOAPODS: 0.39.0
