@@ -23,13 +23,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>051EAF42C9BDFA1458DB90517D3E7D87</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D4621DE7EA8A9DA307957FE6AD2E8AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>10749B1549649E292906C6FDDA6714F9</key>
 		<dict>
 			<key>fileRef</key>
@@ -50,21 +43,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>11D42E55547FDFB07A605FEB77DF30A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSFoundationOther.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1421C42A1FD8B73537E1CB5AF9907B7F</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -80,22 +58,15 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>14FB5C7E5EAD9807B23B209561E36EE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8287566B8B0B72ECAEBAD49F210DDA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>15B352BFE49123417BC1ACF12D687AA9</key>
 		<dict>
 			<key>buildConfigurationList</key>
 			<string>7FB9338B58A7D520D51EB2B8AC1673C5</string>
 			<key>buildPhases</key>
 			<array>
-				<string>FFCAF59568D10C3CD6F705ACC33A235F</string>
+				<string>5687EC8271ACFA54A11EF121049C1775</string>
 				<string>437B2DA7EEB9ECD932E60691EB0203AF</string>
-				<string>76C871771B22BBFCAFF087DC47593264</string>
+				<string>CB538F4CAB3C5D41537BE291C40B8546</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -126,6 +97,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>24261CCBC6400B565343BA156FF20A9E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4F7CB10BAA08EDD527FFFA517979EE89</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UIKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -136,6 +120,20 @@
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
 			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2A054B00BA63D59D289DB549EF9DB58B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6D1060A54DBB4965EC2C3277838B10AA</string>
+				<string>4095E79C563BA3FB8C381D2110BFE694</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AOP</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -152,6 +150,42 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>2F591075C1A41E4BC2980104E0340086</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6D1060A54DBB4965EC2C3277838B10AA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>30C11F764D27AC741C918BA16CF375BE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YJNSFoundationOther.h</string>
+			<key>path</key>
+			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>359B6127A7A8D0578BA5CD340D23DFBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5D2B074A458C85545C9BD9C946796EDC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>35A4FE42711AE21FFEFCBDE07F5D081D</key>
 		<dict>
@@ -180,18 +214,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A769BCEBDF77937363577287E14A1C6</key>
+		<key>4095E79C563BA3FB8C381D2110BFE694</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>YJNSFoundationOther.h</string>
+			<string>YJNSAspectOrientProgramming.m</string>
 			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h</string>
+			<string>Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -254,20 +288,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>4479DC9089CD2734C56987F9771A736B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ED8974B409B98812DCEBF1321FEA3783</string>
-				<string>A7FCBAA7C3C6F874C49720B32D8B8568</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppFrameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>45C2990BCDF18BB98E528F1640DED8E4</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -312,6 +332,49 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4F7CB10BAA08EDD527FFFA517979EE89</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>514AD5339F4FD1292F3EFC171380F9E2</string>
+				<string>9B4095CC09302C9B2601634DEAD4D03E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ViewGeometry</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50B0C74E70A63E675C8E9B657C712591</key>
+		<dict>
+			<key>fileRef</key>
+			<string>30C11F764D27AC741C918BA16CF375BE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>514AD5339F4FD1292F3EFC171380F9E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+YJUIViewGeometry.h</string>
+			<key>path</key>
+			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -360,6 +423,37 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>5687EC8271ACFA54A11EF121049C1775</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CD9A8F1747F22015637B221795A96EA8</string>
+				<string>359B6127A7A8D0578BA5CD340D23DFBA</string>
+				<string>DE14CA3BE43C0D7C56519EC095DE6AFA</string>
+				<string>F143678BBBEEF086E6A8F2A9FC2A49D7</string>
+				<string>CDC53C61F752E9E0491D6C146744800F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5B07DBAEF5FC12D8BD55116EE796CD12</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7A74EA5B0D83AA06EDBEA80B39827F67</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>5D2B074A458C85545C9BD9C946796EDC</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -372,35 +466,6 @@
 			<string>YJCocoa-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D4621DE7EA8A9DA307957FE6AD2E8AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+YJUIViewGeometry.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EB79D7C3F2D28D267F7FD11DD22757E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A769BCEBDF77937363577287E14A1C6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>5F38FC5CC4ADCFED5B748F2AD5BD39B5</key>
 		<dict>
@@ -515,6 +580,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>6D1060A54DBB4965EC2C3277838B10AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>YJNSAspectOrientProgramming.h</string>
+			<key>path</key>
+			<string>Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
 		<dict>
 			<key>isa</key>
@@ -527,20 +607,6 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6FD01F2B53AAD829A55237095E5C30FA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD47B961E7E89A457EA1E4922C94924C</string>
-				<string>5D4621DE7EA8A9DA307957FE6AD2E8AE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ViewGeometry</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>753FD71BE7A3E943C6E6B9129CB68B05</key>
 		<dict>
@@ -555,21 +621,6 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
-		</dict>
-		<key>76C871771B22BBFCAFF087DC47593264</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B4B8D79BCD3CA76A2603769190DF62DB</string>
-				<string>92E5E8B039399DDCC8B46D5DBEF94B7A</string>
-				<string>5EB79D7C3F2D28D267F7FD11DD22757E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>79A375CCEEB39366A9B667D4E14AEC29</key>
 		<dict>
@@ -656,19 +707,20 @@
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>92E5E8B039399DDCC8B46D5DBEF94B7A</key>
+		<key>96307CF2F2BDD72F24A2E212E5D7BF3E</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7A74EA5B0D83AA06EDBEA80B39827F67</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>YJNSFoundationOther.m</string>
+			<key>path</key>
+			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9847F92803953FBB43E7D143CD21A6C6</key>
 		<dict>
@@ -676,6 +728,20 @@
 			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>98AD86AD8F841E1761B6A91651A05F34</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2A054B00BA63D59D289DB549EF9DB58B</string>
+				<string>A1FAAA8B3714C63B1FA977FB670F5325</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Foundation</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
 		<dict>
@@ -687,6 +753,21 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B4095CC09302C9B2601634DEAD4D03E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+YJUIViewGeometry.m</string>
+			<key>path</key>
+			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -784,16 +865,17 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A7FCBAA7C3C6F874C49720B32D8B8568</key>
+		<key>A1FAAA8B3714C63B1FA977FB670F5325</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6FD01F2B53AAD829A55237095E5C30FA</string>
+				<string>30C11F764D27AC741C918BA16CF375BE</string>
+				<string>96307CF2F2BDD72F24A2E212E5D7BF3E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>UIKit</string>
+			<string>Other</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -817,27 +899,6 @@
 			<string>Target Support Files/Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B4B8D79BCD3CA76A2603769190DF62DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD47B961E7E89A457EA1E4922C94924C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B4CD7C25FFE292406263D026341E884C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D2B074A458C85545C9BD9C946796EDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>B8287566B8B0B72ECAEBAD49F210DDA4</key>
 		<dict>
@@ -891,13 +952,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>C612AEA7203CE30F586335A2237B3E77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11D42E55547FDFB07A605FEB77DF30A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>C66B398A8364F30ECB6EC813B4DE81D9</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -911,20 +965,35 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>CD47B961E7E89A457EA1E4922C94924C</key>
+		<key>CB538F4CAB3C5D41537BE291C40B8546</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D48D07315086365F82D0202A3FFA9E20</string>
+				<string>5B07DBAEF5FC12D8BD55116EE796CD12</string>
+				<string>2F591075C1A41E4BC2980104E0340086</string>
+				<string>50B0C74E70A63E675C8E9B657C712591</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+YJUIViewGeometry.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>CD9A8F1747F22015637B221795A96EA8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9B4095CC09302C9B2601634DEAD4D03E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CDC53C61F752E9E0491D6C146744800F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>96307CF2F2BDD72F24A2E212E5D7BF3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CDE28EA3C226A5C0B45A9D1959987045</key>
 		<dict>
@@ -932,6 +1001,20 @@
 			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>CF2C2FC36F1F309820BCA21E37011387</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>98AD86AD8F841E1761B6A91651A05F34</string>
+				<string>24261CCBC6400B565343BA156FF20A9E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>AppFrameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -985,6 +1068,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D48D07315086365F82D0202A3FFA9E20</key>
+		<dict>
+			<key>fileRef</key>
+			<string>514AD5339F4FD1292F3EFC171380F9E2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>D85B8B2AA5B61C059D9BEBABA84A9535</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1010,6 +1107,13 @@
 			<string>System</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE14CA3BE43C0D7C56519EC095DE6AFA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B8287566B8B0B72ECAEBAD49F210DDA4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>E693E14CA089F44A38851420CC1EAE29</key>
 		<dict>
@@ -1041,32 +1145,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ED8974B409B98812DCEBF1321FEA3783</key>
+		<key>F143678BBBEEF086E6A8F2A9FC2A49D7</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F10B5B239904F716423EB368ECF2C74B</string>
-			</array>
+			<key>fileRef</key>
+			<string>4095E79C563BA3FB8C381D2110BFE694</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Foundation</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F10B5B239904F716423EB368ECF2C74B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3A769BCEBDF77937363577287E14A1C6</string>
-				<string>11D42E55547FDFB07A605FEB77DF30A0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Other</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>F1C67D7030B4859B2BC1BD6E9E10BE63</key>
 		<dict>
@@ -1104,7 +1188,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4479DC9089CD2734C56987F9771A736B</string>
+				<string>CF2C2FC36F1F309820BCA21E37011387</string>
 				<string>E91E88A38C77FB15B7111175669EE615</string>
 				<string>DC7DF9E5A9D8B01400D8ECB02C26568F</string>
 			</array>
@@ -1116,22 +1200,6 @@
 			<string>YJCocoa</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FFCAF59568D10C3CD6F705ACC33A235F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>051EAF42C9BDFA1458DB90517D3E7D87</string>
-				<string>B4CD7C25FFE292406263D026341E884C</string>
-				<string>14FB5C7E5EAD9807B23B209561E36EE4</string>
-				<string>C612AEA7203CE30F586335A2237B3E77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
