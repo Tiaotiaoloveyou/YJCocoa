@@ -1,20 +1,20 @@
 PODS:
-  - YJCocoa/AppFrameworks/Foundation/AOP (4.1.0)
-  - YJCocoa/AppFrameworks/Foundation/Other (4.1.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout (4.1.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 4.1.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (= 4.1.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (= 4.1.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (= 4.1.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (4.1.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (4.1.0):
+  - YJCocoa/AppFrameworks/Foundation/AOP (5.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Other (5.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout (5.1.0):
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 5.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (= 5.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (= 5.1.0)
+    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (= 5.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (5.1.0)
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (5.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (4.1.0):
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (5.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (4.1.0):
+  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (5.1.0):
     - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
-  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (4.1.0)
-  - YJCocoa/System/Dispatch (4.1.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (5.1.0)
+  - YJCocoa/System/Dispatch (5.1.0)
 
 DEPENDENCIES:
   - YJCocoa/AppFrameworks/Foundation/AOP
@@ -24,6 +24,8 @@ DEPENDENCIES:
   - YJCocoa/System/Dispatch
 
 SPEC CHECKSUMS:
-  YJCocoa: 4d81110c07ecbe72a92ec0770abedb25e0f831c2
+  YJCocoa: 70128e9054863a79896655a0b49747ed49597c87
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 516e4f61c281b002f932b51b0e7e71e629016a9e
+
+COCOAPODS: 1.1.1

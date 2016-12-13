@@ -1,1799 +1,678 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>019F06A6EE1A9BDD5C4F3A1594F33835</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DC0DCE6416939D0DD98632FE86FC2EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>026001D10DB6CC88C918756064229147</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+YJAutoLayout.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B3D1D13E0C6553800746CB8FD61CF946</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0ADC72069B836422A65ECA8541E646F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSLayoutAnchor.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>10749B1549649E292906C6FDDA6714F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>10834806BD7B412BC24F347361FA2C8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12FC3CF7445AD862E2B7EC65886BF001</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5616F2172ECED701E4BDB51353AF9D40</string>
-				<string>C03B40460704E10A02E2B59F07AF6187</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Other</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1421C42A1FD8B73537E1CB5AF9907B7F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>14ABEA9F824C35C9DC6BC2EAB09B66DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSLayoutConstraintAnimate.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>157467CDB900D7C15DDC03623CFC357A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7F4DA46E551CA71958F8AA4FE876428F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>15B352BFE49123417BC1ACF12D687AA9</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7FB9338B58A7D520D51EB2B8AC1673C5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>68A1F7B16F902D9668A1E792F42F95EF</string>
-				<string>437B2DA7EEB9ECD932E60691EB0203AF</string>
-				<string>9913F2A1214CEAC02153BF445FF89279</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>YJCocoa</string>
-			<key>productName</key>
-			<string>YJCocoa</string>
-			<key>productReference</key>
-			<string>79A375CCEEB39366A9B667D4E14AEC29</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>18340F12838DEE43507667CC74401EB1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-				<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B49929049C8E0D10E64496BF5BC51B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSLayoutDimension.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>26C7A6DC5456CD4D98F214E4E7659033</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSAspectOrientProgramming.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>272643F56613CA0D336AE3DBF19DC404</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6569F07DC21AD8B72752685013E3D9D8</string>
-				<string>A14E2444F162A20E3776820E0ADFFB52</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2F5941BE495F1FFADB1589F7A812B562</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39F517B480879EDCA7FBD49091DF2EAE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>35A4FE42711AE21FFEFCBDE07F5D081D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7A74EA5B0D83AA06EDBEA80B39827F67</string>
-				<string>B8287566B8B0B72ECAEBAD49F210DDA4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Dispatch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3699CE42C92706D0418586F3F83DEB85</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD7E3C36D588F8D6CE5ABB52937AD74E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>37057F651C3C405719267C9CAED3210A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIViewController+YJUILayoutSupport.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39F517B480879EDCA7FBD49091DF2EAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSLayoutYAxisAnchor.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C2BC86CD9691E4BC2240C4CCB1F4FE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D49AB1A92A7A92288B2341C071BF194</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3DC0DCE6416939D0DD98632FE86FC2EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSLayoutConstraintAnimate.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F626AA2B0CF195CE8A09100423556EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7A74EA5B0D83AA06EDBEA80B39827F67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>400881D0D6B48F6C4A35B3AA333D40C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+YJUIViewGeometry.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>404941035196A70656416D24719A2585</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+YJUIViewLayoutConstraintCreation.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4124E7ABE6981E9661A32DBE40068B38</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>18340F12838DEE43507667CC74401EB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>437B2DA7EEB9ECD932E60691EB0203AF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9847F92803953FBB43E7D143CD21A6C6</string>
-				<string>CDE28EA3C226A5C0B45A9D1959987045</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>45C2990BCDF18BB98E528F1640DED8E4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5F38FC5CC4ADCFED5B748F2AD5BD39B5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/YJCocoa/YJCocoa-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>483E72E93457E1A5B6EDD23C915FF077</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF974B593BD7CFA5F1E29DDD6D68BB96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>4DD349208D2C3A1CC7456F6A1444EC6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E36AF6F1D39D77A72D5779E7A7227290</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53460A6ADAC05E0791AC97791E8155EA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>YJCocoa</string>
-			<key>target</key>
-			<string>15B352BFE49123417BC1ACF12D687AA9</string>
-			<key>targetProxy</key>
-			<string>9BA5DAC73194760F57BDA9892D658122</string>
-		</dict>
-		<key>5404691EE01E88564B05419D33B3DA67</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5F38FC5CC4ADCFED5B748F2AD5BD39B5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/YJCocoa/YJCocoa-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string></string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5616F2172ECED701E4BDB51353AF9D40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSFoundationOther.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>592ADFC6CF951A152C30B07BE2497C9C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AF974B593BD7CFA5F1E29DDD6D68BB96</string>
-				<string>37057F651C3C405719267C9CAED3210A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D2B074A458C85545C9BD9C946796EDC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>YJCocoa-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D49AB1A92A7A92288B2341C071BF194</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJUILayoutSupport.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5F38FC5CC4ADCFED5B748F2AD5BD39B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>YJCocoa.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5FE83C89068E8079500BCF4B837E97FE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1421C42A1FD8B73537E1CB5AF9907B7F</string>
-				<string>79A375CCEEB39366A9B667D4E14AEC29</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>607478A412EC0680D5F44737D9F74F86</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E0E4F8F66C04D3627651A58C4EFA882E</string>
-				<string>6D94DBC7D0D11C030048C0D0E129A25B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6208E514084F431AAF338C9B682ABCD6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7654ADAD06C4E8CAFF043CAF9F4C1CA3</string>
-				<string>26C7A6DC5456CD4D98F214E4E7659033</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AOP</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6569F07DC21AD8B72752685013E3D9D8</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>68A1F7B16F902D9668A1E792F42F95EF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D1E87ED68EDBD534F2BC2E03DC8C8D92</string>
-				<string>3699CE42C92706D0418586F3F83DEB85</string>
-				<string>6EB379DB2208BC27816FDE0A8AE86977</string>
-				<string>917D47A198C2B7B71BB33FD11370ACAF</string>
-				<string>A71AEB691E20D8DEA793A327F4F65735</string>
-				<string>EFCF9905DAF77DECD9AC115A1416A835</string>
-				<string>C34AE4E75D9A890B6C4F8AAA71746C13</string>
-				<string>A7F1C48A63783C0146A6FD8BE67093EC</string>
-				<string>DC8C94111863AC8475F7084A25ECECAF</string>
-				<string>83274FD21E1CD105C63B4ADD94EAAD48</string>
-				<string>4DD349208D2C3A1CC7456F6A1444EC6D</string>
-				<string>157467CDB900D7C15DDC03623CFC357A</string>
-				<string>E05CCDFE4510EA8102CCD168E5D0722E</string>
-				<string>CBC25380DF93220EB372CB021FDE6456</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6911BECA35E7518D864239B7E898EEF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AF2818B38CC9B0F54E46862DF3A5956</key>
-		<dict>
-			<key>fileRef</key>
-			<string>400881D0D6B48F6C4A35B3AA333D40C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6D94DBC7D0D11C030048C0D0E129A25B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>400881D0D6B48F6C4A35B3AA333D40C9</string>
-				<string>BD7E3C36D588F8D6CE5ABB52937AD74E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ViewGeometry</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6EB379DB2208BC27816FDE0A8AE86977</key>
-		<dict>
-			<key>fileRef</key>
-			<string>83A273EE0461CA884C68944C6EEB9A45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7240054F92D2CABCC82C0CA89DF4D1A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>404941035196A70656416D24719A2585</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>753FD71BE7A3E943C6E6B9129CB68B05</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4124E7ABE6981E9661A32DBE40068B38</string>
-				<string>F1C67D7030B4859B2BC1BD6E9E10BE63</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7654ADAD06C4E8CAFF043CAF9F4C1CA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSAspectOrientProgramming.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>773D9903811C563EF3629CD8CFAA9C26</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0ADC72069B836422A65ECA8541E646F1</string>
-				<string>BDB033E0C5F7E40FCBF31BD35DEA0D21</string>
-				<string>1B49929049C8E0D10E64496BF5BC51B1</string>
-				<string>E36AF6F1D39D77A72D5779E7A7227290</string>
-				<string>9D833C8B4AFE7CDEB2E0ED885F0ADE01</string>
-				<string>7F4DA46E551CA71958F8AA4FE876428F</string>
-				<string>39F517B480879EDCA7FBD49091DF2EAE</string>
-				<string>D46BCAFDA1072E6740D27E582EA63BF6</string>
-				<string>5D49AB1A92A7A92288B2341C071BF194</string>
-				<string>F0CA33A60CBD50AE655F43D76F92BB41</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LayoutAnchor</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7883F63E1E603C4A5FA62CB34D885619</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CF7B20BC618A2AFADE0EC6530BBC30B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>79A375CCEEB39366A9B667D4E14AEC29</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libYJCocoa.a</string>
-			<key>path</key>
-			<string>libYJCocoa.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7A74EA5B0D83AA06EDBEA80B39827F67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJDispatch.h</string>
-			<key>path</key>
-			<string>Cocoa/System/Dispatch/YJDispatch.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>D46E731C8888F3CEF6DEAF46DE8B6BD1</string>
-				<string>5FE83C89068E8079500BCF4B837E97FE</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EB1E018A1C44A0355E3BD5968A616DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5616F2172ECED701E4BDB51353AF9D40</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7F4DA46E551CA71958F8AA4FE876428F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSLayoutXAxisAnchor.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FB9338B58A7D520D51EB2B8AC1673C5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>45C2990BCDF18BB98E528F1640DED8E4</string>
-				<string>5404691EE01E88564B05419D33B3DA67</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>83274FD21E1CD105C63B4ADD94EAAD48</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14ABEA9F824C35C9DC6BC2EAB09B66DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>83A273EE0461CA884C68944C6EEB9A45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+YJUIViewLayoutConstraintCreation.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A03C60D2FCE284BBA1DBD0DB91A597A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>753FD71BE7A3E943C6E6B9129CB68B05</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E693E14CA089F44A38851420CC1EAE29</string>
-				<string>C66B398A8364F30ECB6EC813B4DE81D9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>53460A6ADAC05E0791AC97791E8155EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>1421C42A1FD8B73537E1CB5AF9907B7F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>917D47A198C2B7B71BB33FD11370ACAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>37057F651C3C405719267C9CAED3210A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92C34A93C30323ECBB9412BB38AAD788</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B49929049C8E0D10E64496BF5BC51B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>94F5B9B59F2DE9A6017F8BC708D2732D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+YJAutoLayout.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95DECA32AD131D98C66524985CA78CA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0ADC72069B836422A65ECA8541E646F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>971BD8A3EA9F1575CEB2887166C7B4B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7654ADAD06C4E8CAFF043CAF9F4C1CA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9847F92803953FBB43E7D143CD21A6C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9913F2A1214CEAC02153BF445FF89279</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A881CA1A243528498C05643FD7EB9B3D</string>
-				<string>6AF2818B38CC9B0F54E46862DF3A5956</string>
-				<string>7240054F92D2CABCC82C0CA89DF4D1A1</string>
-				<string>483E72E93457E1A5B6EDD23C915FF077</string>
-				<string>7883F63E1E603C4A5FA62CB34D885619</string>
-				<string>3F626AA2B0CF195CE8A09100423556EE</string>
-				<string>971BD8A3EA9F1575CEB2887166C7B4B6</string>
-				<string>7EB1E018A1C44A0355E3BD5968A616DD</string>
-				<string>95DECA32AD131D98C66524985CA78CA6</string>
-				<string>019F06A6EE1A9BDD5C4F3A1594F33835</string>
-				<string>92C34A93C30323ECBB9412BB38AAD788</string>
-				<string>D2F23C866B9C2D377FF73D0AB2640906</string>
-				<string>2F5941BE495F1FFADB1589F7A812B562</string>
-				<string>3C2BC86CD9691E4BC2240C4CCB1F4FE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9BA5DAC73194760F57BDA9892D658122</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>15B352BFE49123417BC1ACF12D687AA9</string>
-			<key>remoteInfo</key>
-			<string>YJCocoa</string>
-		</dict>
-		<key>9D1B09F4573875068E70E683151E382C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>94F5B9B59F2DE9A6017F8BC708D2732D</string>
-				<string>026001D10DB6CC88C918756064229147</string>
-				<string>3DC0DCE6416939D0DD98632FE86FC2EE</string>
-				<string>14ABEA9F824C35C9DC6BC2EAB09B66DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Extend</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D833C8B4AFE7CDEB2E0ED885F0ADE01</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJNSLayoutXAxisAnchor.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A14E2444F162A20E3776820E0ADFFB52</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A71AEB691E20D8DEA793A327F4F65735</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D2B074A458C85545C9BD9C946796EDC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7F1C48A63783C0146A6FD8BE67093EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C03B40460704E10A02E2B59F07AF6187</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A881CA1A243528498C05643FD7EB9B3D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94F5B9B59F2DE9A6017F8BC708D2732D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A979AAF28219C56C0694172A4CB95ACE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB09CE6FEC2FB515BBDE4A54CB7E19A6</string>
-				<string>607478A412EC0680D5F44737D9F74F86</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AppFrameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF974B593BD7CFA5F1E29DDD6D68BB96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIViewController+YJUILayoutSupport.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B3D1D13E0C6553800746CB8FD61CF946</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>37DB56D75062CC75FCB0966E1C6E8A8E</string>
-				<string>10834806BD7B412BC24F347361FA2C8E</string>
-				<string>272643F56613CA0D336AE3DBF19DC404</string>
-				<string>6911BECA35E7518D864239B7E898EEF3</string>
-				<string>A1A36D34413696BE466E2CA0AFF194DA</string>
-				<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
-				<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8287566B8B0B72ECAEBAD49F210DDA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJDispatch.m</string>
-			<key>path</key>
-			<string>Cocoa/System/Dispatch/YJDispatch.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BB09CE6FEC2FB515BBDE4A54CB7E19A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6208E514084F431AAF338C9B682ABCD6</string>
-				<string>12FC3CF7445AD862E2B7EC65886BF001</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Foundation</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD7E3C36D588F8D6CE5ABB52937AD74E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+YJUIViewGeometry.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDB033E0C5F7E40FCBF31BD35DEA0D21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSLayoutAnchor.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C03B40460704E10A02E2B59F07AF6187</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSFoundationOther.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C091D6834C8B8D4A7A4CB667BE0ECA94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C34AE4E75D9A890B6C4F8AAA71746C13</key>
-		<dict>
-			<key>fileRef</key>
-			<string>26C7A6DC5456CD4D98F214E4E7659033</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C66B398A8364F30ECB6EC813B4DE81D9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C091D6834C8B8D4A7A4CB667BE0ECA94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CBC25380DF93220EB372CB021FDE6456</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0CA33A60CBD50AE655F43D76F92BB41</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CDE28EA3C226A5C0B45A9D1959987045</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CF7B20BC618A2AFADE0EC6530BBC30B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YJAutoLayout.h</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/YJAutoLayout.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1E87ED68EDBD534F2BC2E03DC8C8D92</key>
-		<dict>
-			<key>fileRef</key>
-			<string>026001D10DB6CC88C918756064229147</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D2F23C866B9C2D377FF73D0AB2640906</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D833C8B4AFE7CDEB2E0ED885F0ADE01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>5FE83C89068E8079500BCF4B837E97FE</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8A03C60D2FCE284BBA1DBD0DB91A597A</string>
-				<string>15B352BFE49123417BC1ACF12D687AA9</string>
-			</array>
-		</dict>
-		<key>D46BCAFDA1072E6740D27E582EA63BF6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSLayoutYAxisAnchor.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D46E731C8888F3CEF6DEAF46DE8B6BD1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F6FD2E53DB6B73A1DF75EEE1906DB30A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D85B8B2AA5B61C059D9BEBABA84A9535</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>YJCocoa-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9D0FAE77537A56E86962879B22A17C6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>404941035196A70656416D24719A2585</string>
-				<string>83A273EE0461CA884C68944C6EEB9A45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIView</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC7DF9E5A9D8B01400D8ECB02C26568F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>35A4FE42711AE21FFEFCBDE07F5D081D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>System</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DC8C94111863AC8475F7084A25ECECAF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BDB033E0C5F7E40FCBF31BD35DEA0D21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E05CCDFE4510EA8102CCD168E5D0722E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D46BCAFDA1072E6740D27E582EA63BF6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E0E4F8F66C04D3627651A58C4EFA882E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CF7B20BC618A2AFADE0EC6530BBC30B6</string>
-				<string>9D1B09F4573875068E70E683151E382C</string>
-				<string>773D9903811C563EF3629CD8CFAA9C26</string>
-				<string>D9D0FAE77537A56E86962879B22A17C6</string>
-				<string>592ADFC6CF951A152C30B07BE2497C9C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AutoLayout</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E36AF6F1D39D77A72D5779E7A7227290</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJNSLayoutDimension.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E693E14CA089F44A38851420CC1EAE29</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>10749B1549649E292906C6FDDA6714F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E91E88A38C77FB15B7111175669EE615</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5F38FC5CC4ADCFED5B748F2AD5BD39B5</string>
-				<string>5D2B074A458C85545C9BD9C946796EDC</string>
-				<string>D85B8B2AA5B61C059D9BEBABA84A9535</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/YJCocoa</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFCF9905DAF77DECD9AC115A1416A835</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8287566B8B0B72ECAEBAD49F210DDA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0CA33A60CBD50AE655F43D76F92BB41</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YJUILayoutSupport.m</string>
-			<key>path</key>
-			<string>Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1C67D7030B4859B2BC1BD6E9E10BE63</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F6FD2E53DB6B73A1DF75EEE1906DB30A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A979AAF28219C56C0694172A4CB95ACE</string>
-				<string>E91E88A38C77FB15B7111175669EE615</string>
-				<string>DC7DF9E5A9D8B01400D8ECB02C26568F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>YJCocoa</string>
-			<key>path</key>
-			<string>YJCocoa</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02ECB4F2B6703919782174FBDBE8430C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		078326D42B9D712F287AD6E55CDEC37C /* YJNSFoundationOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F16670EFBD38305D5C1D77452ADB1BD /* YJNSAspectOrientProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D4D34B830F2A617BF2F8690AF97D778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		1EBB144059960B07B2B0E3C85D8B5A08 /* YJNSLayoutDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */; };
+		2C0AB5715A4C67127D70B9A1C1EEAAA4 /* UIView+YJUIViewLayoutConstraintCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46156EF8F5AD8C995C266BF5882230D0 /* Pods-YJTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6CDC35D04E7AEC8D53022A923CBEBB /* Pods-YJTableView-dummy.m */; };
+		4756C8C3EADB3D46B6368B97A323C267 /* YJNSLayoutAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */; };
+		537A4CAC727F316D0DCD3B91F0330EB6 /* YJCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */; };
+		5536D489962E42AE1AAA3A31CB729E5E /* YJUILayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */; };
+		560E1E54640BECAAD4735CBA5DCF8348 /* NSLayoutConstraint+YJAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A8AE5EE9921BD37BC34912DB9090C06 /* YJNSLayoutConstraintAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E79148EEA98F4F31C680E32BBCE6565 /* YJNSLayoutConstraintAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */; };
+		655660E3133ADB66D5476DF5216D219B /* YJNSLayoutYAxisAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A987ACBFD2FB0FCD53060C1227D0E7D /* NSLayoutConstraint+YJAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */; };
+		79B59DCB38A9EA952BF05D338F502C41 /* UIView+YJUIViewGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFA8C81C40EBB4016501534955B962F /* YJDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */; };
+		9F666445CADC91C15D1C9C55581A2737 /* YJNSAspectOrientProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */; };
+		A1E0BFC892EF9AF2883464909EFCAEA7 /* YJNSLayoutXAxisAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6C311C8D69841C2C4064D1A5B949E /* UIView+YJUIViewLayoutConstraintCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */; };
+		A59C38AEF4CCA786BECFF85A5E45786C /* UIViewController+YJUILayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B29A6F4AD709C55A75BC899E4667A77B /* YJNSLayoutYAxisAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */; };
+		BDA2D434364E094BFA7708F5CD59C9E0 /* YJAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C690E8EF1D2B836393A0484686248FAA /* YJNSLayoutXAxisAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */; };
+		CEEF9F97772AAFBC73A12E9630ECC2D6 /* YJDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE6ED88D98EDF641D8EAD9E101B0ADF2 /* YJNSLayoutDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3139DDE2C8F4BE1D6C589B9F70CCD4F /* YJNSLayoutAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E332EA4838A8563FDB791D058CE29988 /* UIView+YJUIViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */; };
+		E370294A7C19B377B4AB8BF505595F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		EC164E926C99761EAE0DDE1B0B8D2F4E /* UIViewController+YJUILayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */; };
+		EE50CE2C823AE7E4E12EAFC51944083F /* YJNSFoundationOther.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */; };
+		EFDBB60F3DDE1F0F9905DD6A24C23C4C /* YJUILayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB72C83D8FE65DABAE1B833A67459AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AD34F340C62E590E56D2437A4B19A9;
+			remoteInfo = YJCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+YJAutoLayout.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.m"; sourceTree = "<group>"; };
+		0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.h; sourceTree = "<group>"; };
+		14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutConstraintAnimate.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.m; sourceTree = "<group>"; };
+		1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutDimension.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.h; sourceTree = "<group>"; };
+		1DE505F7CD913BB876F61777E74F8375 /* Pods-YJTableView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTableView-frameworks.sh"; sourceTree = "<group>"; };
+		26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSAspectOrientProgramming.m; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m; sourceTree = "<group>"; };
+		305AB48ABA062462D99E207C3B53FCAC /* Pods-YJTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YJUILayoutSupport.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.m"; sourceTree = "<group>"; };
+		39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutYAxisAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.h; sourceTree = "<group>"; };
+		3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutConstraintAnimate.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.h; sourceTree = "<group>"; };
+		400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewGeometry.h"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h"; sourceTree = "<group>"; };
+		404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewLayoutConstraintCreation.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.h"; sourceTree = "<group>"; };
+		42865AA7216F822446BAFF4AA0A2DDB1 /* Pods-YJTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTableView.release.xcconfig"; sourceTree = "<group>"; };
+		5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSFoundationOther.h; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h; sourceTree = "<group>"; };
+		5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJCocoa-dummy.m"; sourceTree = "<group>"; };
+		5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJUILayoutSupport.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.h; sourceTree = "<group>"; };
+		5F38FC5CC4ADCFED5B748F2AD5BD39B5 /* YJCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJCocoa.xcconfig; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D65D6A8C22E020CA0614871CE7E447B /* libPods-YJTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJTableView.a"; path = "libPods-YJTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSAspectOrientProgramming.h; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h; sourceTree = "<group>"; };
+		7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJDispatch.h; path = Cocoa/System/Dispatch/YJDispatch.h; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutXAxisAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.m; sourceTree = "<group>"; };
+		83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewLayoutConstraintCreation.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+YJAutoLayout.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.h"; sourceTree = "<group>"; };
+		98ACC2BDACCB9A6F487D068E1B9ECD4D /* libYJCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYJCocoa.a; path = libYJCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9AE163435D655B7441AF5C9D17D71E /* Pods-YJTableView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTableView-resources.sh"; sourceTree = "<group>"; };
+		9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutXAxisAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.h; sourceTree = "<group>"; };
+		AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YJUILayoutSupport.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.h"; sourceTree = "<group>"; };
+		B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJDispatch.m; path = Cocoa/System/Dispatch/YJDispatch.m; sourceTree = "<group>"; };
+		BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewGeometry.m"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m"; sourceTree = "<group>"; };
+		BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.m; sourceTree = "<group>"; };
+		C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSFoundationOther.m; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m; sourceTree = "<group>"; };
+		CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJAutoLayout.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/YJAutoLayout.h; sourceTree = "<group>"; };
+		D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutYAxisAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.m; sourceTree = "<group>"; };
+		D85B8B2AA5B61C059D9BEBABA84A9535 /* YJCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJCocoa-prefix.pch"; sourceTree = "<group>"; };
+		DC156506DB0ACC03A903FBD20316121F /* Pods-YJTableView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJTableView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE6CDC35D04E7AEC8D53022A923CBEBB /* Pods-YJTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJTableView-dummy.m"; sourceTree = "<group>"; };
+		E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutDimension.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.m; sourceTree = "<group>"; };
+		E4A178DC7A46F7C4850D2ECED919FD47 /* Pods-YJTableView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJTableView-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJUILayoutSupport.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F897404127A543FD47DAF622CCBB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02ECB4F2B6703919782174FBDBE8430C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA02F1BE2341492D4F15EB68E7E43629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E370294A7C19B377B4AB8BF505595F5A /* Foundation.framework in Frameworks */,
+				1D4D34B830F2A617BF2F8690AF97D778 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FC3CF7445AD862E2B7EC65886BF001 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */,
+				C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		35A4FE42711AE21FFEFCBDE07F5D081D /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */,
+				B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */,
+			);
+			name = Dispatch;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		592ADFC6CF951A152C30B07BE2497C9C /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */,
+				37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		607478A412EC0680D5F44737D9F74F86 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4F8F66C04D3627651A58C4EFA882E /* AutoLayout */,
+				6D94DBC7D0D11C030048C0D0E129A25B /* ViewGeometry */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6208E514084F431AAF338C9B682ABCD6 /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */,
+				26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */,
+			);
+			name = AOP;
+			sourceTree = "<group>";
+		};
+		6D94DBC7D0D11C030048C0D0E129A25B /* ViewGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */,
+				BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */,
+			);
+			name = ViewGeometry;
+			sourceTree = "<group>";
+		};
+		773D9903811C563EF3629CD8CFAA9C26 /* LayoutAnchor */ = {
+			isa = PBXGroup;
+			children = (
+				0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */,
+				BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */,
+				1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */,
+				E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */,
+				9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */,
+				7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */,
+				39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */,
+				D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */,
+				5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */,
+				F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */,
+			);
+			name = LayoutAnchor;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D46E731C8888F3CEF6DEAF46DE8B6BD1 /* Pods */,
+				FE6C120F50BB7056F3C18120D17A6F2A /* Products */,
+				D51CA5C74BAD220D121F0BE98633D760 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB621892D782C61D451FA3C1666A08E /* Pods-YJTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DC156506DB0ACC03A903FBD20316121F /* Pods-YJTableView-acknowledgements.markdown */,
+				E4A178DC7A46F7C4850D2ECED919FD47 /* Pods-YJTableView-acknowledgements.plist */,
+				DE6CDC35D04E7AEC8D53022A923CBEBB /* Pods-YJTableView-dummy.m */,
+				1DE505F7CD913BB876F61777E74F8375 /* Pods-YJTableView-frameworks.sh */,
+				9C9AE163435D655B7441AF5C9D17D71E /* Pods-YJTableView-resources.sh */,
+				305AB48ABA062462D99E207C3B53FCAC /* Pods-YJTableView.debug.xcconfig */,
+				42865AA7216F822446BAFF4AA0A2DDB1 /* Pods-YJTableView.release.xcconfig */,
+			);
+			name = "Pods-YJTableView";
+			path = "Target Support Files/Pods-YJTableView";
+			sourceTree = "<group>";
+		};
+		9D1B09F4573875068E70E683151E382C /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */,
+				026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */,
+				3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */,
+				14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */,
+			);
+			name = Extend;
+			sourceTree = "<group>";
+		};
+		A979AAF28219C56C0694172A4CB95ACE /* AppFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB09CE6FEC2FB515BBDE4A54CB7E19A6 /* Foundation */,
+				607478A412EC0680D5F44737D9F74F86 /* UIKit */,
+			);
+			name = AppFrameworks;
+			sourceTree = "<group>";
+		};
+		BB09CE6FEC2FB515BBDE4A54CB7E19A6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6208E514084F431AAF338C9B682ABCD6 /* AOP */,
+				12FC3CF7445AD862E2B7EC65886BF001 /* Other */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		D46E731C8888F3CEF6DEAF46DE8B6BD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6FD2E53DB6B73A1DF75EEE1906DB30A /* YJCocoa */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D51CA5C74BAD220D121F0BE98633D760 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB621892D782C61D451FA3C1666A08E /* Pods-YJTableView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D9D0FAE77537A56E86962879B22A17C6 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */,
+				83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		DC7DF9E5A9D8B01400D8ECB02C26568F /* System */ = {
+			isa = PBXGroup;
+			children = (
+				35A4FE42711AE21FFEFCBDE07F5D081D /* Dispatch */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		E0E4F8F66C04D3627651A58C4EFA882E /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */,
+				9D1B09F4573875068E70E683151E382C /* Extend */,
+				773D9903811C563EF3629CD8CFAA9C26 /* LayoutAnchor */,
+				D9D0FAE77537A56E86962879B22A17C6 /* UIView */,
+				592ADFC6CF951A152C30B07BE2497C9C /* UIViewController */,
+			);
+			name = AutoLayout;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E91E88A38C77FB15B7111175669EE615 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F38FC5CC4ADCFED5B748F2AD5BD39B5 /* YJCocoa.xcconfig */,
+				5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */,
+				D85B8B2AA5B61C059D9BEBABA84A9535 /* YJCocoa-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YJCocoa";
+			sourceTree = "<group>";
+		};
+		F6FD2E53DB6B73A1DF75EEE1906DB30A /* YJCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				A979AAF28219C56C0694172A4CB95ACE /* AppFrameworks */,
+				E91E88A38C77FB15B7111175669EE615 /* Support Files */,
+				DC7DF9E5A9D8B01400D8ECB02C26568F /* System */,
+			);
+			name = YJCocoa;
+			path = YJCocoa;
+			sourceTree = "<group>";
+		};
+		FE6C120F50BB7056F3C18120D17A6F2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D65D6A8C22E020CA0614871CE7E447B /* libPods-YJTableView.a */,
+				98ACC2BDACCB9A6F487D068E1B9ECD4D /* libYJCocoa.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B31BEF7A5614E4F4D93BCA974EF41E94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560E1E54640BECAAD4735CBA5DCF8348 /* NSLayoutConstraint+YJAutoLayout.h in Headers */,
+				79B59DCB38A9EA952BF05D338F502C41 /* UIView+YJUIViewGeometry.h in Headers */,
+				2C0AB5715A4C67127D70B9A1C1EEAAA4 /* UIView+YJUIViewLayoutConstraintCreation.h in Headers */,
+				A59C38AEF4CCA786BECFF85A5E45786C /* UIViewController+YJUILayoutSupport.h in Headers */,
+				BDA2D434364E094BFA7708F5CD59C9E0 /* YJAutoLayout.h in Headers */,
+				CEEF9F97772AAFBC73A12E9630ECC2D6 /* YJDispatch.h in Headers */,
+				0F16670EFBD38305D5C1D77452ADB1BD /* YJNSAspectOrientProgramming.h in Headers */,
+				078326D42B9D712F287AD6E55CDEC37C /* YJNSFoundationOther.h in Headers */,
+				E3139DDE2C8F4BE1D6C589B9F70CCD4F /* YJNSLayoutAnchor.h in Headers */,
+				5A8AE5EE9921BD37BC34912DB9090C06 /* YJNSLayoutConstraintAnimate.h in Headers */,
+				DE6ED88D98EDF641D8EAD9E101B0ADF2 /* YJNSLayoutDimension.h in Headers */,
+				A1E0BFC892EF9AF2883464909EFCAEA7 /* YJNSLayoutXAxisAnchor.h in Headers */,
+				655660E3133ADB66D5476DF5216D219B /* YJNSLayoutYAxisAnchor.h in Headers */,
+				EFDBB60F3DDE1F0F9905DD6A24C23C4C /* YJUILayoutSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04AD34F340C62E590E56D2437A4B19A9 /* YJCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2208CB41E8D06EDA84870E50B5194E9C /* Build configuration list for PBXNativeTarget "YJCocoa" */;
+			buildPhases = (
+				FA3020E6CC7BD34A348A4F03C76CCD1D /* Sources */,
+				DA02F1BE2341492D4F15EB68E7E43629 /* Frameworks */,
+				B31BEF7A5614E4F4D93BCA974EF41E94 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJCocoa;
+			productName = YJCocoa;
+			productReference = 98ACC2BDACCB9A6F487D068E1B9ECD4D /* libYJCocoa.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E97100C3EA6EC535676CC25351D5B59F /* Pods-YJTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7866ABB7B57576E3FB2A86019D2AED8 /* Build configuration list for PBXNativeTarget "Pods-YJTableView" */;
+			buildPhases = (
+				9EF2EA768E605ECF04E826C87525EA29 /* Sources */,
+				49F897404127A543FD47DAF622CCBB51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAD5AD7C1FAEFEF69B199FECC0D857E /* PBXTargetDependency */,
+			);
+			name = "Pods-YJTableView";
+			productName = "Pods-YJTableView";
+			productReference = 6D65D6A8C22E020CA0614871CE7E447B /* libPods-YJTableView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FE6C120F50BB7056F3C18120D17A6F2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97100C3EA6EC535676CC25351D5B59F /* Pods-YJTableView */,
+				04AD34F340C62E590E56D2437A4B19A9 /* YJCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EF2EA768E605ECF04E826C87525EA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46156EF8F5AD8C995C266BF5882230D0 /* Pods-YJTableView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3020E6CC7BD34A348A4F03C76CCD1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A987ACBFD2FB0FCD53060C1227D0E7D /* NSLayoutConstraint+YJAutoLayout.m in Sources */,
+				E332EA4838A8563FDB791D058CE29988 /* UIView+YJUIViewGeometry.m in Sources */,
+				A4F6C311C8D69841C2C4064D1A5B949E /* UIView+YJUIViewLayoutConstraintCreation.m in Sources */,
+				EC164E926C99761EAE0DDE1B0B8D2F4E /* UIViewController+YJUILayoutSupport.m in Sources */,
+				537A4CAC727F316D0DCD3B91F0330EB6 /* YJCocoa-dummy.m in Sources */,
+				8DFA8C81C40EBB4016501534955B962F /* YJDispatch.m in Sources */,
+				9F666445CADC91C15D1C9C55581A2737 /* YJNSAspectOrientProgramming.m in Sources */,
+				EE50CE2C823AE7E4E12EAFC51944083F /* YJNSFoundationOther.m in Sources */,
+				4756C8C3EADB3D46B6368B97A323C267 /* YJNSLayoutAnchor.m in Sources */,
+				5E79148EEA98F4F31C680E32BBCE6565 /* YJNSLayoutConstraintAnimate.m in Sources */,
+				1EBB144059960B07B2B0E3C85D8B5A08 /* YJNSLayoutDimension.m in Sources */,
+				C690E8EF1D2B836393A0484686248FAA /* YJNSLayoutXAxisAnchor.m in Sources */,
+				B29A6F4AD709C55A75BC899E4667A77B /* YJNSLayoutYAxisAnchor.m in Sources */,
+				5536D489962E42AE1AAA3A31CB729E5E /* YJUILayoutSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAD5AD7C1FAEFEF69B199FECC0D857E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJCocoa;
+			target = 04AD34F340C62E590E56D2437A4B19A9 /* YJCocoa */;
+			targetProxy = FB72C83D8FE65DABAE1B833A67459AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4FE85114377A2879E4B030D6FBE08C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42865AA7216F822446BAFF4AA0A2DDB1 /* Pods-YJTableView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6522D137795BCB93681269D13CCE67BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F38FC5CC4ADCFED5B748F2AD5BD39B5 /* YJCocoa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJCocoa/YJCocoa-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B78EE912249FB2939C2552215202D52D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F38FC5CC4ADCFED5B748F2AD5BD39B5 /* YJCocoa.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJCocoa/YJCocoa-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3EA7AC7D9B0B4DCEB7D4D4683A3FC75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305AB48ABA062462D99E207C3B53FCAC /* Pods-YJTableView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2208CB41E8D06EDA84870E50B5194E9C /* Build configuration list for PBXNativeTarget "YJCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6522D137795BCB93681269D13CCE67BF /* Debug */,
+				B78EE912249FB2939C2552215202D52D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7866ABB7B57576E3FB2A86019D2AED8 /* Build configuration list for PBXNativeTarget "Pods-YJTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3EA7AC7D9B0B4DCEB7D4D4683A3FC75 /* Debug */,
+				4FE85114377A2879E4B030D6FBE08C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
