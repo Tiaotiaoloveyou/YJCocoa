@@ -1,8 +1,8 @@
 PODS:
-  - YJCocoa/AppFrameworks/Foundation/AOP (5.0.1)
-  - YJCocoa/AppFrameworks/Foundation/Other (5.0.1)
-  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (5.0.1)
-  - YJCocoa/System/Dispatch (5.0.1)
+  - YJCocoa/AppFrameworks/Foundation/AOP (5.1.0)
+  - YJCocoa/AppFrameworks/Foundation/Other (5.1.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (5.1.0)
+  - YJCocoa/System/Dispatch (5.1.0)
 
 DEPENDENCIES:
   - YJCocoa/AppFrameworks/Foundation/AOP
@@ -11,8 +11,8 @@ DEPENDENCIES:
   - YJCocoa/System/Dispatch
 
 SPEC CHECKSUMS:
-  YJCocoa: 25e401f06052398c0610cbb2235cff2ef49cbd02
+  YJCocoa: 70128e9054863a79896655a0b49747ed49597c87
 
 PODFILE CHECKSUM: 1e4375e14747d7769c0469c5d9b124123ed044cc
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
