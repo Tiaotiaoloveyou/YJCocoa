@@ -1,0 +1,12 @@
+PODS:
+  - YJCocoa/AppFrameworks/Foundation/AOP (5.3.0)
+
+DEPENDENCIES:
+  - YJCocoa/AppFrameworks/Foundation/AOP
+
+SPEC CHECKSUMS:
+  YJCocoa: b8a5a86bd765e08014ca11fc87d6ec4d71d10241
+
+PODFILE CHECKSUM: f2c49d8bb70bed3afaecd83bf4bf9c1727ddee61
+
+COCOAPODS: 1.1.1
