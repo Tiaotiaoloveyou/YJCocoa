@@ -1,31 +1,18 @@
 PODS:
   - YJCocoa/AppFrameworks/Foundation/AOP (5.3.0)
   - YJCocoa/AppFrameworks/Foundation/Other (5.3.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout (5.3.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (= 5.3.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (= 5.3.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (= 5.3.0)
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (= 5.3.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend (5.3.0)
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor (5.3.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/Extend
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIView (5.3.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout/UIViewController (5.3.0):
-    - YJCocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor
   - YJCocoa/AppFrameworks/UIKit/ViewGeometry (5.3.0)
   - YJCocoa/System/Dispatch (5.3.0)
 
 DEPENDENCIES:
   - YJCocoa/AppFrameworks/Foundation/AOP
   - YJCocoa/AppFrameworks/Foundation/Other
-  - YJCocoa/AppFrameworks/UIKit/AutoLayout
   - YJCocoa/AppFrameworks/UIKit/ViewGeometry
   - YJCocoa/System/Dispatch
 
 SPEC CHECKSUMS:
   YJCocoa: b8a5a86bd765e08014ca11fc87d6ec4d71d10241
 
-PODFILE CHECKSUM: 516e4f61c281b002f932b51b0e7e71e629016a9e
+PODFILE CHECKSUM: 2595a7f6934d7c884481c04ce989d31ec2a73691
 
 COCOAPODS: 1.1.1

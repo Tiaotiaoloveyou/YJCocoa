@@ -8,37 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		02ECB4F2B6703919782174FBDBE8430C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		078326D42B9D712F287AD6E55CDEC37C /* YJNSFoundationOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F16670EFBD38305D5C1D77452ADB1BD /* YJNSAspectOrientProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17CEA7ABD733F983E7CD0DA3024BE912 /* YJNSAspectOrientProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 4095E79C563BA3FB8C381D2110BFE694 /* YJNSAspectOrientProgramming.m */; };
 		1D4D34B830F2A617BF2F8690AF97D778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		1EBB144059960B07B2B0E3C85D8B5A08 /* YJNSLayoutDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */; };
-		2C0AB5715A4C67127D70B9A1C1EEAAA4 /* UIView+YJUIViewLayoutConstraintCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21482F658D6F0E4070D749A843B34CB7 /* YJCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */; };
+		422FEA67F73A011B4957E950A80A00C3 /* YJNSAspectOrientProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1060A54DBB4965EC2C3277838B10AA /* YJNSAspectOrientProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46156EF8F5AD8C995C266BF5882230D0 /* Pods-YJTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6CDC35D04E7AEC8D53022A923CBEBB /* Pods-YJTableView-dummy.m */; };
-		4756C8C3EADB3D46B6368B97A323C267 /* YJNSLayoutAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */; };
-		537A4CAC727F316D0DCD3B91F0330EB6 /* YJCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */; };
-		5536D489962E42AE1AAA3A31CB729E5E /* YJUILayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */; };
-		560E1E54640BECAAD4735CBA5DCF8348 /* NSLayoutConstraint+YJAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A8AE5EE9921BD37BC34912DB9090C06 /* YJNSLayoutConstraintAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E79148EEA98F4F31C680E32BBCE6565 /* YJNSLayoutConstraintAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */; };
-		655660E3133ADB66D5476DF5216D219B /* YJNSLayoutYAxisAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A987ACBFD2FB0FCD53060C1227D0E7D /* NSLayoutConstraint+YJAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */; };
-		79B59DCB38A9EA952BF05D338F502C41 /* UIView+YJUIViewGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DFA8C81C40EBB4016501534955B962F /* YJDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */; };
-		9F666445CADC91C15D1C9C55581A2737 /* YJNSAspectOrientProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */; };
-		A1E0BFC892EF9AF2883464909EFCAEA7 /* YJNSLayoutXAxisAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F6C311C8D69841C2C4064D1A5B949E /* UIView+YJUIViewLayoutConstraintCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */; };
-		A59C38AEF4CCA786BECFF85A5E45786C /* UIViewController+YJUILayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B29A6F4AD709C55A75BC899E4667A77B /* YJNSLayoutYAxisAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */; };
-		BDA2D434364E094BFA7708F5CD59C9E0 /* YJAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C690E8EF1D2B836393A0484686248FAA /* YJNSLayoutXAxisAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */; };
-		CEEF9F97772AAFBC73A12E9630ECC2D6 /* YJDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE6ED88D98EDF641D8EAD9E101B0ADF2 /* YJNSLayoutDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3139DDE2C8F4BE1D6C589B9F70CCD4F /* YJNSLayoutAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E332EA4838A8563FDB791D058CE29988 /* UIView+YJUIViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */; };
+		58B65E4C813944AE2A2CD5A40E81C2FB /* YJNSFoundationOther.m in Sources */ = {isa = PBXBuildFile; fileRef = 96307CF2F2BDD72F24A2E212E5D7BF3E /* YJNSFoundationOther.m */; };
+		64549F9B371B30C5857EE0BDBFC05BCC /* UIView+YJUIViewGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 514AD5339F4FD1292F3EFC171380F9E2 /* UIView+YJUIViewGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B21703B9FE5B434BBEB35166A1D3A9 /* YJNSFoundationOther.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C11F764D27AC741C918BA16CF375BE /* YJNSFoundationOther.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC4B14D1C26D1A2B653219F3A30F0A4C /* UIView+YJUIViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4095CC09302C9B2601634DEAD4D03E /* UIView+YJUIViewGeometry.m */; };
+		C6C5FD2F151FC27C702307CCFD369466 /* YJDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */; };
 		E370294A7C19B377B4AB8BF505595F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		EC164E926C99761EAE0DDE1B0B8D2F4E /* UIViewController+YJUILayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */; };
-		EE50CE2C823AE7E4E12EAFC51944083F /* YJNSFoundationOther.m in Sources */ = {isa = PBXBuildFile; fileRef = C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */; };
-		EFDBB60F3DDE1F0F9905DD6A24C23C4C /* YJUILayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F384B60598AAB7D1C2AC669A272FFE31 /* YJDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,48 +33,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+YJAutoLayout.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.m"; sourceTree = "<group>"; };
-		0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.h; sourceTree = "<group>"; };
-		14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutConstraintAnimate.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.m; sourceTree = "<group>"; };
-		1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutDimension.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.h; sourceTree = "<group>"; };
 		1DE505F7CD913BB876F61777E74F8375 /* Pods-YJTableView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTableView-frameworks.sh"; sourceTree = "<group>"; };
-		26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSAspectOrientProgramming.m; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m; sourceTree = "<group>"; };
 		305AB48ABA062462D99E207C3B53FCAC /* Pods-YJTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTableView.debug.xcconfig"; sourceTree = "<group>"; };
-		37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+YJUILayoutSupport.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.m"; sourceTree = "<group>"; };
-		39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutYAxisAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.h; sourceTree = "<group>"; };
-		3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutConstraintAnimate.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/YJNSLayoutConstraintAnimate.h; sourceTree = "<group>"; };
-		400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewGeometry.h"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h"; sourceTree = "<group>"; };
-		404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewLayoutConstraintCreation.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.h"; sourceTree = "<group>"; };
+		30C11F764D27AC741C918BA16CF375BE /* YJNSFoundationOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSFoundationOther.h; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h; sourceTree = "<group>"; };
+		4095E79C563BA3FB8C381D2110BFE694 /* YJNSAspectOrientProgramming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSAspectOrientProgramming.m; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m; sourceTree = "<group>"; };
 		42865AA7216F822446BAFF4AA0A2DDB1 /* Pods-YJTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTableView.release.xcconfig"; sourceTree = "<group>"; };
-		5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSFoundationOther.h; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.h; sourceTree = "<group>"; };
+		514AD5339F4FD1292F3EFC171380F9E2 /* UIView+YJUIViewGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewGeometry.h"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h"; sourceTree = "<group>"; };
 		5D2B074A458C85545C9BD9C946796EDC /* YJCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJCocoa-dummy.m"; sourceTree = "<group>"; };
-		5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJUILayoutSupport.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.h; sourceTree = "<group>"; };
 		5F38FC5CC4ADCFED5B748F2AD5BD39B5 /* YJCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJCocoa.xcconfig; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D1060A54DBB4965EC2C3277838B10AA /* YJNSAspectOrientProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSAspectOrientProgramming.h; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h; sourceTree = "<group>"; };
 		6D65D6A8C22E020CA0614871CE7E447B /* libPods-YJTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YJTableView.a"; path = "libPods-YJTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSAspectOrientProgramming.h; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h; sourceTree = "<group>"; };
 		7A74EA5B0D83AA06EDBEA80B39827F67 /* YJDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJDispatch.h; path = Cocoa/System/Dispatch/YJDispatch.h; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutXAxisAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.m; sourceTree = "<group>"; };
-		83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewLayoutConstraintCreation.m"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIView/UIView+YJUIViewLayoutConstraintCreation.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+YJAutoLayout.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/Extend/NSLayoutConstraint+YJAutoLayout.h"; sourceTree = "<group>"; };
+		96307CF2F2BDD72F24A2E212E5D7BF3E /* YJNSFoundationOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSFoundationOther.m; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m; sourceTree = "<group>"; };
 		98ACC2BDACCB9A6F487D068E1B9ECD4D /* libYJCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYJCocoa.a; path = libYJCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4095CC09302C9B2601634DEAD4D03E /* UIView+YJUIViewGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewGeometry.m"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m"; sourceTree = "<group>"; };
 		9C9AE163435D655B7441AF5C9D17D71E /* Pods-YJTableView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTableView-resources.sh"; sourceTree = "<group>"; };
-		9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSLayoutXAxisAnchor.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutXAxisAnchor.h; sourceTree = "<group>"; };
-		AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+YJUILayoutSupport.h"; path = "Cocoa/AppFrameworks/UIKit/AutoLayout/UIViewController/UIViewController+YJUILayoutSupport.h"; sourceTree = "<group>"; };
 		B8287566B8B0B72ECAEBAD49F210DDA4 /* YJDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJDispatch.m; path = Cocoa/System/Dispatch/YJDispatch.m; sourceTree = "<group>"; };
-		BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewGeometry.m"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m"; sourceTree = "<group>"; };
-		BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutAnchor.m; sourceTree = "<group>"; };
-		C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSFoundationOther.m; path = Cocoa/AppFrameworks/Foundation/Other/YJNSFoundationOther.m; sourceTree = "<group>"; };
-		CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJAutoLayout.h; path = Cocoa/AppFrameworks/UIKit/AutoLayout/YJAutoLayout.h; sourceTree = "<group>"; };
-		D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutYAxisAnchor.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutYAxisAnchor.m; sourceTree = "<group>"; };
 		D85B8B2AA5B61C059D9BEBABA84A9535 /* YJCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJCocoa-prefix.pch"; sourceTree = "<group>"; };
 		DC156506DB0ACC03A903FBD20316121F /* Pods-YJTableView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJTableView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DE6CDC35D04E7AEC8D53022A923CBEBB /* Pods-YJTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJTableView-dummy.m"; sourceTree = "<group>"; };
-		E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSLayoutDimension.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJNSLayoutDimension.m; sourceTree = "<group>"; };
 		E4A178DC7A46F7C4850D2ECED919FD47 /* Pods-YJTableView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJTableView-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJUILayoutSupport.m; path = Cocoa/AppFrameworks/UIKit/AutoLayout/LayoutAnchor/YJUILayoutSupport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,13 +79,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12FC3CF7445AD862E2B7EC65886BF001 /* Other */ = {
+		24261CCBC6400B565343BA156FF20A9E /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				5616F2172ECED701E4BDB51353AF9D40 /* YJNSFoundationOther.h */,
-				C03B40460704E10A02E2B59F07AF6187 /* YJNSFoundationOther.m */,
+				4F7CB10BAA08EDD527FFFA517979EE89 /* ViewGeometry */,
 			);
-			name = Other;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		2A054B00BA63D59D289DB549EF9DB58B /* AOP */ = {
+			isa = PBXGroup;
+			children = (
+				6D1060A54DBB4965EC2C3277838B10AA /* YJNSAspectOrientProgramming.h */,
+				4095E79C563BA3FB8C381D2110BFE694 /* YJNSAspectOrientProgramming.m */,
+			);
+			name = AOP;
 			sourceTree = "<group>";
 		};
 		35A4FE42711AE21FFEFCBDE07F5D081D /* Dispatch */ = {
@@ -143,57 +113,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		592ADFC6CF951A152C30B07BE2497C9C /* UIViewController */ = {
+		4F7CB10BAA08EDD527FFFA517979EE89 /* ViewGeometry */ = {
 			isa = PBXGroup;
 			children = (
-				AF974B593BD7CFA5F1E29DDD6D68BB96 /* UIViewController+YJUILayoutSupport.h */,
-				37057F651C3C405719267C9CAED3210A /* UIViewController+YJUILayoutSupport.m */,
-			);
-			name = UIViewController;
-			sourceTree = "<group>";
-		};
-		607478A412EC0680D5F44737D9F74F86 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				E0E4F8F66C04D3627651A58C4EFA882E /* AutoLayout */,
-				6D94DBC7D0D11C030048C0D0E129A25B /* ViewGeometry */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		6208E514084F431AAF338C9B682ABCD6 /* AOP */ = {
-			isa = PBXGroup;
-			children = (
-				7654ADAD06C4E8CAFF043CAF9F4C1CA3 /* YJNSAspectOrientProgramming.h */,
-				26C7A6DC5456CD4D98F214E4E7659033 /* YJNSAspectOrientProgramming.m */,
-			);
-			name = AOP;
-			sourceTree = "<group>";
-		};
-		6D94DBC7D0D11C030048C0D0E129A25B /* ViewGeometry */ = {
-			isa = PBXGroup;
-			children = (
-				400881D0D6B48F6C4A35B3AA333D40C9 /* UIView+YJUIViewGeometry.h */,
-				BD7E3C36D588F8D6CE5ABB52937AD74E /* UIView+YJUIViewGeometry.m */,
+				514AD5339F4FD1292F3EFC171380F9E2 /* UIView+YJUIViewGeometry.h */,
+				9B4095CC09302C9B2601634DEAD4D03E /* UIView+YJUIViewGeometry.m */,
 			);
 			name = ViewGeometry;
-			sourceTree = "<group>";
-		};
-		773D9903811C563EF3629CD8CFAA9C26 /* LayoutAnchor */ = {
-			isa = PBXGroup;
-			children = (
-				0ADC72069B836422A65ECA8541E646F1 /* YJNSLayoutAnchor.h */,
-				BDB033E0C5F7E40FCBF31BD35DEA0D21 /* YJNSLayoutAnchor.m */,
-				1B49929049C8E0D10E64496BF5BC51B1 /* YJNSLayoutDimension.h */,
-				E36AF6F1D39D77A72D5779E7A7227290 /* YJNSLayoutDimension.m */,
-				9D833C8B4AFE7CDEB2E0ED885F0ADE01 /* YJNSLayoutXAxisAnchor.h */,
-				7F4DA46E551CA71958F8AA4FE876428F /* YJNSLayoutXAxisAnchor.m */,
-				39F517B480879EDCA7FBD49091DF2EAE /* YJNSLayoutYAxisAnchor.h */,
-				D46BCAFDA1072E6740D27E582EA63BF6 /* YJNSLayoutYAxisAnchor.m */,
-				5D49AB1A92A7A92288B2341C071BF194 /* YJUILayoutSupport.h */,
-				F0CA33A60CBD50AE655F43D76F92BB41 /* YJUILayoutSupport.m */,
-			);
-			name = LayoutAnchor;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -222,33 +148,31 @@
 			path = "Target Support Files/Pods-YJTableView";
 			sourceTree = "<group>";
 		};
-		9D1B09F4573875068E70E683151E382C /* Extend */ = {
+		98AD86AD8F841E1761B6A91651A05F34 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				94F5B9B59F2DE9A6017F8BC708D2732D /* NSLayoutConstraint+YJAutoLayout.h */,
-				026001D10DB6CC88C918756064229147 /* NSLayoutConstraint+YJAutoLayout.m */,
-				3DC0DCE6416939D0DD98632FE86FC2EE /* YJNSLayoutConstraintAnimate.h */,
-				14ABEA9F824C35C9DC6BC2EAB09B66DF /* YJNSLayoutConstraintAnimate.m */,
-			);
-			name = Extend;
-			sourceTree = "<group>";
-		};
-		A979AAF28219C56C0694172A4CB95ACE /* AppFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BB09CE6FEC2FB515BBDE4A54CB7E19A6 /* Foundation */,
-				607478A412EC0680D5F44737D9F74F86 /* UIKit */,
-			);
-			name = AppFrameworks;
-			sourceTree = "<group>";
-		};
-		BB09CE6FEC2FB515BBDE4A54CB7E19A6 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				6208E514084F431AAF338C9B682ABCD6 /* AOP */,
-				12FC3CF7445AD862E2B7EC65886BF001 /* Other */,
+				2A054B00BA63D59D289DB549EF9DB58B /* AOP */,
+				A1FAAA8B3714C63B1FA977FB670F5325 /* Other */,
 			);
 			name = Foundation;
+			sourceTree = "<group>";
+		};
+		A1FAAA8B3714C63B1FA977FB670F5325 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				30C11F764D27AC741C918BA16CF375BE /* YJNSFoundationOther.h */,
+				96307CF2F2BDD72F24A2E212E5D7BF3E /* YJNSFoundationOther.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CF2C2FC36F1F309820BCA21E37011387 /* AppFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98AD86AD8F841E1761B6A91651A05F34 /* Foundation */,
+				24261CCBC6400B565343BA156FF20A9E /* UIKit */,
+			);
+			name = AppFrameworks;
 			sourceTree = "<group>";
 		};
 		D46E731C8888F3CEF6DEAF46DE8B6BD1 /* Pods */ = {
@@ -267,33 +191,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D9D0FAE77537A56E86962879B22A17C6 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				404941035196A70656416D24719A2585 /* UIView+YJUIViewLayoutConstraintCreation.h */,
-				83A273EE0461CA884C68944C6EEB9A45 /* UIView+YJUIViewLayoutConstraintCreation.m */,
-			);
-			name = UIView;
-			sourceTree = "<group>";
-		};
 		DC7DF9E5A9D8B01400D8ECB02C26568F /* System */ = {
 			isa = PBXGroup;
 			children = (
 				35A4FE42711AE21FFEFCBDE07F5D081D /* Dispatch */,
 			);
 			name = System;
-			sourceTree = "<group>";
-		};
-		E0E4F8F66C04D3627651A58C4EFA882E /* AutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				CF7B20BC618A2AFADE0EC6530BBC30B6 /* YJAutoLayout.h */,
-				9D1B09F4573875068E70E683151E382C /* Extend */,
-				773D9903811C563EF3629CD8CFAA9C26 /* LayoutAnchor */,
-				D9D0FAE77537A56E86962879B22A17C6 /* UIView */,
-				592ADFC6CF951A152C30B07BE2497C9C /* UIViewController */,
-			);
-			name = AutoLayout;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -319,7 +222,7 @@
 		F6FD2E53DB6B73A1DF75EEE1906DB30A /* YJCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				A979AAF28219C56C0694172A4CB95ACE /* AppFrameworks */,
+				CF2C2FC36F1F309820BCA21E37011387 /* AppFrameworks */,
 				E91E88A38C77FB15B7111175669EE615 /* Support Files */,
 				DC7DF9E5A9D8B01400D8ECB02C26568F /* System */,
 			);
@@ -339,24 +242,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B31BEF7A5614E4F4D93BCA974EF41E94 /* Headers */ = {
+		2F3408E9379A0E39C7984F149B9BD74F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				560E1E54640BECAAD4735CBA5DCF8348 /* NSLayoutConstraint+YJAutoLayout.h in Headers */,
-				79B59DCB38A9EA952BF05D338F502C41 /* UIView+YJUIViewGeometry.h in Headers */,
-				2C0AB5715A4C67127D70B9A1C1EEAAA4 /* UIView+YJUIViewLayoutConstraintCreation.h in Headers */,
-				A59C38AEF4CCA786BECFF85A5E45786C /* UIViewController+YJUILayoutSupport.h in Headers */,
-				BDA2D434364E094BFA7708F5CD59C9E0 /* YJAutoLayout.h in Headers */,
-				CEEF9F97772AAFBC73A12E9630ECC2D6 /* YJDispatch.h in Headers */,
-				0F16670EFBD38305D5C1D77452ADB1BD /* YJNSAspectOrientProgramming.h in Headers */,
-				078326D42B9D712F287AD6E55CDEC37C /* YJNSFoundationOther.h in Headers */,
-				E3139DDE2C8F4BE1D6C589B9F70CCD4F /* YJNSLayoutAnchor.h in Headers */,
-				5A8AE5EE9921BD37BC34912DB9090C06 /* YJNSLayoutConstraintAnimate.h in Headers */,
-				DE6ED88D98EDF641D8EAD9E101B0ADF2 /* YJNSLayoutDimension.h in Headers */,
-				A1E0BFC892EF9AF2883464909EFCAEA7 /* YJNSLayoutXAxisAnchor.h in Headers */,
-				655660E3133ADB66D5476DF5216D219B /* YJNSLayoutYAxisAnchor.h in Headers */,
-				EFDBB60F3DDE1F0F9905DD6A24C23C4C /* YJUILayoutSupport.h in Headers */,
+				64549F9B371B30C5857EE0BDBFC05BCC /* UIView+YJUIViewGeometry.h in Headers */,
+				F384B60598AAB7D1C2AC669A272FFE31 /* YJDispatch.h in Headers */,
+				422FEA67F73A011B4957E950A80A00C3 /* YJNSAspectOrientProgramming.h in Headers */,
+				79B21703B9FE5B434BBEB35166A1D3A9 /* YJNSFoundationOther.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,9 +260,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2208CB41E8D06EDA84870E50B5194E9C /* Build configuration list for PBXNativeTarget "YJCocoa" */;
 			buildPhases = (
-				FA3020E6CC7BD34A348A4F03C76CCD1D /* Sources */,
+				71AB8C96D37CB4EFEFB3320B8177CCDD /* Sources */,
 				DA02F1BE2341492D4F15EB68E7E43629 /* Frameworks */,
-				B31BEF7A5614E4F4D93BCA974EF41E94 /* Headers */,
+				2F3408E9379A0E39C7984F149B9BD74F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -425,32 +318,23 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		71AB8C96D37CB4EFEFB3320B8177CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4B14D1C26D1A2B653219F3A30F0A4C /* UIView+YJUIViewGeometry.m in Sources */,
+				21482F658D6F0E4070D749A843B34CB7 /* YJCocoa-dummy.m in Sources */,
+				C6C5FD2F151FC27C702307CCFD369466 /* YJDispatch.m in Sources */,
+				17CEA7ABD733F983E7CD0DA3024BE912 /* YJNSAspectOrientProgramming.m in Sources */,
+				58B65E4C813944AE2A2CD5A40E81C2FB /* YJNSFoundationOther.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9EF2EA768E605ECF04E826C87525EA29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				46156EF8F5AD8C995C266BF5882230D0 /* Pods-YJTableView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA3020E6CC7BD34A348A4F03C76CCD1D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A987ACBFD2FB0FCD53060C1227D0E7D /* NSLayoutConstraint+YJAutoLayout.m in Sources */,
-				E332EA4838A8563FDB791D058CE29988 /* UIView+YJUIViewGeometry.m in Sources */,
-				A4F6C311C8D69841C2C4064D1A5B949E /* UIView+YJUIViewLayoutConstraintCreation.m in Sources */,
-				EC164E926C99761EAE0DDE1B0B8D2F4E /* UIViewController+YJUILayoutSupport.m in Sources */,
-				537A4CAC727F316D0DCD3B91F0330EB6 /* YJCocoa-dummy.m in Sources */,
-				8DFA8C81C40EBB4016501534955B962F /* YJDispatch.m in Sources */,
-				9F666445CADC91C15D1C9C55581A2737 /* YJNSAspectOrientProgramming.m in Sources */,
-				EE50CE2C823AE7E4E12EAFC51944083F /* YJNSFoundationOther.m in Sources */,
-				4756C8C3EADB3D46B6368B97A323C267 /* YJNSLayoutAnchor.m in Sources */,
-				5E79148EEA98F4F31C680E32BBCE6565 /* YJNSLayoutConstraintAnimate.m in Sources */,
-				1EBB144059960B07B2B0E3C85D8B5A08 /* YJNSLayoutDimension.m in Sources */,
-				C690E8EF1D2B836393A0484686248FAA /* YJNSLayoutXAxisAnchor.m in Sources */,
-				B29A6F4AD709C55A75BC899E4667A77B /* YJNSLayoutYAxisAnchor.m in Sources */,
-				5536D489962E42AE1AAA3A31CB729E5E /* YJUILayoutSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
