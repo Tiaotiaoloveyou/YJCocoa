@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A160B7C5C8CC8F460998B88E3F1E082 /* YJNSAspectOrientProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F72799B9089AE1D46D7059261187A3 /* YJNSAspectOrientProgramming.m */; };
+		2D097B5C2EEB242C9275E841762A62E7 /* YJNSAspectOrientProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BF75DE1540241368674798F2D2D310 /* YJNSAspectOrientProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		415E362FC2EEF7D3D9A788D991C0740A /* Pods-ScrollViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41766C488DA225EC026E67DF39D9F780 /* Pods-ScrollViewManager-dummy.m */; };
+		4DF6E0508860891B4FBD0C3165E802CC /* YJNSAspectOrientProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = A23C30FC7A3BDE4B6B164A84B0F1A03B /* YJNSAspectOrientProgramming.m */; };
+		B6B1F2F4F6AAF819B532652911ECF334 /* UIView+YJUIViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC263E825AD31605D5EDECE9554AFFE /* UIView+YJUIViewGeometry.m */; };
 		B7F7EDB95DECB2DAE7E39342EBB1789B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		EBF968FA277B0271BC4B10E78566E08D /* YJCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E06A45C1DBB94898A5909159900762A /* YJCocoa-dummy.m */; };
+		C45B3D52F12FDE9304F6E606A2D15622 /* YJCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4CB5F724E88E3601F5F9B1A47A268 /* YJCocoa-dummy.m */; };
 		ED097FB60D4A2B8056A4190F26568A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		F3B06049658593A2CABEA1E14FFCD0A3 /* YJNSAspectOrientProgramming.h in Headers */ = {isa = PBXBuildFile; fileRef = 891B2CBC54A39823A6B13474FED9E879 /* YJNSAspectOrientProgramming.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F105F1FB082DA0D5AB92E832DE70E655 /* UIView+YJUIViewGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F68A5D36B7FD050AAFAE17A04A05D78 /* UIView+YJUIViewGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB3829C5722B31CE6F4F001782BF3F46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,20 +31,22 @@
 /* Begin PBXFileReference section */
 		02293775BC34DEE56648E2998593697E /* Pods-ScrollViewManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScrollViewManager-acknowledgements.plist"; sourceTree = "<group>"; };
 		0E2E646C2A4FA3FA5E9E304596928EC9 /* Pods-ScrollViewManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewManager-frameworks.sh"; sourceTree = "<group>"; };
+		0F68A5D36B7FD050AAFAE17A04A05D78 /* UIView+YJUIViewGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YJUIViewGeometry.h"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.h"; sourceTree = "<group>"; };
+		1ABB49C1E0D51516141E9A108B9A90BD /* YJCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJCocoa-prefix.pch"; sourceTree = "<group>"; };
 		41766C488DA225EC026E67DF39D9F780 /* Pods-ScrollViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScrollViewManager-dummy.m"; sourceTree = "<group>"; };
-		44F72799B9089AE1D46D7059261187A3 /* YJNSAspectOrientProgramming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSAspectOrientProgramming.m; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m; sourceTree = "<group>"; };
 		547D0C39E110150A7BA0D25614125105 /* libYJCocoa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYJCocoa.a; path = libYJCocoa.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB4CB5F724E88E3601F5F9B1A47A268 /* YJCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJCocoa-dummy.m"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E06A45C1DBB94898A5909159900762A /* YJCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJCocoa-dummy.m"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		891B2CBC54A39823A6B13474FED9E879 /* YJNSAspectOrientProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSAspectOrientProgramming.h; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h; sourceTree = "<group>"; };
 		90B8BBEEA44AFFBF526C412BCD0F0F5A /* Pods-ScrollViewManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScrollViewManager-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		977DBC6C66292C707BC38536B2BDD116 /* Pods-ScrollViewManager-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScrollViewManager-resources.sh"; sourceTree = "<group>"; };
+		A23C30FC7A3BDE4B6B164A84B0F1A03B /* YJNSAspectOrientProgramming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YJNSAspectOrientProgramming.m; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.m; sourceTree = "<group>"; };
+		ACC263E825AD31605D5EDECE9554AFFE /* UIView+YJUIViewGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YJUIViewGeometry.m"; path = "Cocoa/AppFrameworks/UIKit/ViewGeometry/UIView+YJUIViewGeometry.m"; sourceTree = "<group>"; };
 		BBB824E2819AC8F24F4A281D57A392AA /* libPods-ScrollViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ScrollViewManager.a"; path = "libPods-ScrollViewManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEBEB51CA32FC527B34613CABE049EC /* YJCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJCocoa.xcconfig; sourceTree = "<group>"; };
 		C018617D946DBB152657D816EAC14EA8 /* Pods-ScrollViewManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewManager.debug.xcconfig"; sourceTree = "<group>"; };
-		C7B42FE412CB1BF52970E1FF97C305F8 /* YJCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJCocoa.xcconfig; sourceTree = "<group>"; };
-		D88F57CC06FBE19CA6C4C2C0F0EFCE2E /* YJCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJCocoa-prefix.pch"; sourceTree = "<group>"; };
+		C4BF75DE1540241368674798F2D2D310 /* YJNSAspectOrientProgramming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YJNSAspectOrientProgramming.h; path = Cocoa/AppFrameworks/Foundation/AOP/YJNSAspectOrientProgramming.h; sourceTree = "<group>"; };
 		D9A9B78FF4E204A70A29B606F842D5A3 /* Pods-ScrollViewManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScrollViewManager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EEA13BE5905F6197D89E2B2BBBF809F /* AppFrameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F2557C2F4530EA7F6E073E63FEACEEF0 /* Foundation */,
-			);
-			name = AppFrameworks;
-			sourceTree = "<group>";
-		};
 		37BBCC74EB41BAF7C2510C92189ED82E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +85,15 @@
 				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B6E14896FD0290F9C6582CD0FD16BD /* ViewGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				0F68A5D36B7FD050AAFAE17A04A05D78 /* UIView+YJUIViewGeometry.h */,
+				ACC263E825AD31605D5EDECE9554AFFE /* UIView+YJUIViewGeometry.m */,
+			);
+			name = ViewGeometry;
 			sourceTree = "<group>";
 		};
 		4A85EF4CA4C4124C6F3B8E6226D76B7B /* Pods-ScrollViewManager */ = {
@@ -115,6 +120,25 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		64457E8AD15EAA964786F578BEC790E2 /* AppFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC6A8AE47D7EA07963EDF8FAE272B9FD /* Foundation */,
+				A9F48B5936386A49D27C848B710CBC50 /* UIKit */,
+			);
+			name = AppFrameworks;
+			sourceTree = "<group>";
+		};
+		7A94801354416CDC498843DE109521B0 /* YJCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				64457E8AD15EAA964786F578BEC790E2 /* AppFrameworks */,
+				B76B189B29A547ABCCED1151401745E6 /* Support Files */,
+			);
+			name = YJCocoa;
+			path = YJCocoa;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -126,34 +150,40 @@
 			);
 			sourceTree = "<group>";
 		};
-		A5CBD60A4E9877A110C94D31C95ACDF6 /* AOP */ = {
+		8C2339612EA7F921CD5AC68513AA7F8E /* AOP */ = {
 			isa = PBXGroup;
 			children = (
-				891B2CBC54A39823A6B13474FED9E879 /* YJNSAspectOrientProgramming.h */,
-				44F72799B9089AE1D46D7059261187A3 /* YJNSAspectOrientProgramming.m */,
+				C4BF75DE1540241368674798F2D2D310 /* YJNSAspectOrientProgramming.h */,
+				A23C30FC7A3BDE4B6B164A84B0F1A03B /* YJNSAspectOrientProgramming.m */,
 			);
 			name = AOP;
 			sourceTree = "<group>";
 		};
-		AE3AAB8609455C6C860AB9E65E29F0B7 /* YJCocoa */ = {
+		A9F48B5936386A49D27C848B710CBC50 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				2EEA13BE5905F6197D89E2B2BBBF809F /* AppFrameworks */,
-				C79111672C1FF50F89E60E65D66ED651 /* Support Files */,
+				47B6E14896FD0290F9C6582CD0FD16BD /* ViewGeometry */,
 			);
-			name = YJCocoa;
-			path = YJCocoa;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		C79111672C1FF50F89E60E65D66ED651 /* Support Files */ = {
+		B76B189B29A547ABCCED1151401745E6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7B42FE412CB1BF52970E1FF97C305F8 /* YJCocoa.xcconfig */,
-				6E06A45C1DBB94898A5909159900762A /* YJCocoa-dummy.m */,
-				D88F57CC06FBE19CA6C4C2C0F0EFCE2E /* YJCocoa-prefix.pch */,
+				BCEBEB51CA32FC527B34613CABE049EC /* YJCocoa.xcconfig */,
+				5EB4CB5F724E88E3601F5F9B1A47A268 /* YJCocoa-dummy.m */,
+				1ABB49C1E0D51516141E9A108B9A90BD /* YJCocoa-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YJCocoa";
+			sourceTree = "<group>";
+		};
+		CC6A8AE47D7EA07963EDF8FAE272B9FD /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8C2339612EA7F921CD5AC68513AA7F8E /* AOP */,
+			);
+			name = Foundation;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -168,27 +198,20 @@
 		EC3C916D52CA1F1BFD0371491B077A4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AE3AAB8609455C6C860AB9E65E29F0B7 /* YJCocoa */,
+				7A94801354416CDC498843DE109521B0 /* YJCocoa */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F2557C2F4530EA7F6E073E63FEACEEF0 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				A5CBD60A4E9877A110C94D31C95ACDF6 /* AOP */,
-			);
-			name = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48F0883DACAD2D1D63CF2319FF58FBF7 /* Headers */ = {
+		3B6F1C831BEC80FC1CC095500BF84321 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B06049658593A2CABEA1E14FFCD0A3 /* YJNSAspectOrientProgramming.h in Headers */,
+				F105F1FB082DA0D5AB92E832DE70E655 /* UIView+YJUIViewGeometry.h in Headers */,
+				2D097B5C2EEB242C9275E841762A62E7 /* YJNSAspectOrientProgramming.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +222,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CEA6464E72B1AA26EF642A00320489A /* Build configuration list for PBXNativeTarget "YJCocoa" */;
 			buildPhases = (
-				ED628CD52898CC056154D0DB90AD7A5C /* Sources */,
+				E8F2DC0A111048F7A03012A6D6D4160C /* Sources */,
 				782C70B985E402037E46B0040CC48B9E /* Frameworks */,
-				48F0883DACAD2D1D63CF2319FF58FBF7 /* Headers */,
+				3B6F1C831BEC80FC1CC095500BF84321 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -257,12 +280,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED628CD52898CC056154D0DB90AD7A5C /* Sources */ = {
+		E8F2DC0A111048F7A03012A6D6D4160C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF968FA277B0271BC4B10E78566E08D /* YJCocoa-dummy.m in Sources */,
-				0A160B7C5C8CC8F460998B88E3F1E082 /* YJNSAspectOrientProgramming.m in Sources */,
+				B6B1F2F4F6AAF819B532652911ECF334 /* UIView+YJUIViewGeometry.m in Sources */,
+				C45B3D52F12FDE9304F6E606A2D15622 /* YJCocoa-dummy.m in Sources */,
+				4DF6E0508860891B4FBD0C3165E802CC /* YJNSAspectOrientProgramming.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +312,7 @@
 /* Begin XCBuildConfiguration section */
 		724CA892E791F9C905C183BE6DA3B024 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B42FE412CB1BF52970E1FF97C305F8 /* YJCocoa.xcconfig */;
+			baseConfigurationReference = BCEBEB51CA32FC527B34613CABE049EC /* YJCocoa.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -441,7 +465,7 @@
 		};
 		D2369FC2269C177F68752804D4B83E6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B42FE412CB1BF52970E1FF97C305F8 /* YJCocoa.xcconfig */;
+			baseConfigurationReference = BCEBEB51CA32FC527B34613CABE049EC /* YJCocoa.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
