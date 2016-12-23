@@ -1,6 +1,5 @@
 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016110201.png)
 
-
 [![Language: Objective-C](https://img.shields.io/badge/language-Objective%20C-orange.svg?style=flat)](https://developer.apple.com/reference/objectivec)
 [![Platform](https://img.shields.io/cocoapods/p/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/937447974/YJCocoa/blob/master/LICENSE)
@@ -37,8 +36,8 @@ NSFileManager扩展，支持快速移动文件。主要是替换系统方法`mov
 
 ###1.1.5 Http
 
-1. http链接解析，快速获取其中参数;
-2. http链接组装，快速组装相关参数。
+1. http链接解析，快速获取其中参数，支持URLEncode编码;
+2. http链接组装，快速组装相关参数，支持URLDecode解码。
 
 ###1.1.6 Log
 
@@ -48,11 +47,15 @@ NSLog打印优化，Unicode自动转化为中文输出。
 
 合并respondsToSelector和performSelector方法，用于安全执行Selector，可携带多个参数
 
-###1.1.8 Singleton
+###1.1.8 Router
+
+Router是NavigationRouter的基础库，主要用于实现组件化开发，也可定制组件化开发方案。
+
+###1.1.9 Singleton
 
 单例管理中心，一行代码即可让当前类转换为单例。
 
-###1.1.9 Timer
+###1.1.10 Timer
 
 替换NSTimer实现相关计时器功能。
 
@@ -61,7 +64,11 @@ NSLog打印优化，Unicode自动转化为中文输出。
 1. 随着应用的回收而回收。
 2. 随着当前使用类的回收而回收。如VC回收时，YJSTimer也会回收。
 
-###1.1.10 URLSession
+###1.1.11 URLCode
+
+URLEncode编码和URLDecode解码
+
+###1.1.12 URLSession
 
 大型APP网络架构，具有以下特性：
 
@@ -89,12 +96,11 @@ UICollectionView封装
 3. 自带存储数据源，支持单数组和多数组显示的数据源。
 4. 自动将数据从UIViewController传输到UICollectionViewCell，支持任意数据类型的传输，如项目中常用的CellModel、Dictionary字典。
 5. 自动优化UICollectionView滑动卡顿，支持同步和异步刷新UICollectionViewCell。
-6. 支持多种点击cell的监听方式，可使用protocol或block。
-7. 支持多种创建UICollectionViewCell的方式，如纯代码、xib和storyboard。无须改变你写代码的习惯。
-8. 支持UICollectionViewFlowLayout动态布局；可设置一行显示个数，系统自动计算item宽度；可开启高度自适应，框架会根据计算的宽度动态缩放宽。
-9. 自动register注册UICollectionViewCell，自动显示UICollectionViewCell，自动缓存UICollectionViewCell。
-10. 自动计算cell显示的高度或手动计算cell显示的高度，并缓存高度。多种缓存高度策略：
-	1. 根据相同的UITableViewCell类缓存高度；
+6. 支持多种创建UICollectionViewCell的方式，如纯代码、xib和storyboard。无须改变你写代码的习惯。
+7. 支持UICollectionViewFlowLayout动态布局；可设置一行显示个数，系统自动计算item宽度；可开启高度自适应，框架会根据计算的宽度动态缩放宽。
+8. 自动register注册UICollectionViewCell，自动显示UICollectionViewCell，自动缓存UICollectionViewCell。
+9. 自动计算cell显示的高度或手动计算cell显示的高度，并缓存高度。多种缓存高度策略：
+	1. 根据相同的UICollectionViewCell类缓存高度；
 	2. 根据NSIndexPath对应的位置缓存高度；
 	3. 根据类名和NSIndexPath双重绑定缓存高度。
 
@@ -113,7 +119,12 @@ UITextField和UITextView可输入长度控制。
 
 NavigationBar主要实现对UINavigationBar的封装，可快速自定义配置UINavigationBar。
 
-###1.2.6 PageView
+###1.2.6 NavigationRouter
+
+NavigationRouter主要用于实现项目组件化 。
+
+
+###1.2.7 PageView
 
 PageView主要实现对轮播图、导航图、小说翻页等多种翻页模式封装。
 
@@ -121,7 +132,7 @@ PageView主要实现对轮播图、导航图、小说翻页等多种翻页模式
 2. 多种配置模式适应任何多页面需求。
 3. 任何间隔切换VC，内存释放稳定。
 
-###1.2.7 TableViewManager
+###1.2.8 TableViewManager
 
 UITableView管理器
 
@@ -130,15 +141,14 @@ UITableView管理器
 3. 自带存储数据源，支持UITableViewStylePlain和UITableViewStyleGrouped显示的数据源。
 4. 自动将数据从UIViewController传输到UITableViewCell，支持任意数据类型的传输，如项目中常用的CellModel、Dictionary字典。
 5. 自动优化UITableView滑动卡顿，支持同步和异步刷新UITableViewCell。
-6. 支持多种点击cell的监听方式，可使用protocol或block。
-7. 支持多种创建UITableViewCell的方式，如纯代码、xib和storyboard。无须改变你写代码的习惯。
-8. 自动register注册UITableViewCell，自动显示UITableViewCell，自动缓存UITableViewCell。
-9. 自动计算cell显示的高度或手动计算cell显示的高度，并缓存高度。多种缓存高度策略：
+6. 支持多种创建UITableViewCell的方式，如纯代码、xib和storyboard。无须改变你写代码的习惯。
+7. 自动register注册UITableViewCell，自动显示UITableViewCell，自动缓存UITableViewCell。
+8. 自动计算cell显示的高度或手动计算cell显示的高度，并缓存高度。多种缓存高度策略：
 	1. 根据相同的UITableViewCell类缓存高度；
 	2. 根据NSIndexPath对应的位置缓存高度；
 	3. 根据类名和NSIndexPath双重绑定缓存高度。
 
-###1.2.8 ViewGeometry
+###1.2.9 ViewGeometry
 
 UIView(UIViewGeometry)相关扩展，可快速设置frame、bounds和center。
 
@@ -259,6 +269,15 @@ YJ技术支持群：557445088
 | | 2016-12-07 | CollectionViewManager和CollectionViewManager增加对Cell. reuseIdentifier属性的防空处理 |
 | | | DictionaryModel增加对NSURL和NSNumber属性相对于字典中数据的容错处理 |
 | 5.1.0 | 2016-12-09 | URLSession上线，大型APP网络架构，兼容任何一款网络SDK，并将其转化为面向对象请求，且支持断网重连 |
+| 5.1.1 | 2016-12-14 | AOP修复崩溃错误 |
+| | 2016-12-15 | CollectionViewManager和TableViewManager增加数据源越界保护 |
+| | 2016-12-16 | TableViewManager增加+ (YJUITableViewCellCreate)cellCreate方法强制实现 |
+| | | CollectionViewManager和TableViewManager增加重用标识符 |
+| | | 修复部分警告代码 |
+| 5.2.0 | 2016-12-19 | URLCode上线，支持URLEncode编码和URLDecode解码 |
+| | | Http接入URLCode库，增加参数URLEncode编码和URLDecode解码的方法 |
+| 5.3.0 | 2016-12-20 | Router上线，是NavigationRouter的基础库 |
+| | | NavigationRouter上线，主要用于实现项目组件化 |
 
 ##Copyright
 
