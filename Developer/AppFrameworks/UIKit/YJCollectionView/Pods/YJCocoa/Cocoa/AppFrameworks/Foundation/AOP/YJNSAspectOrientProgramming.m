@@ -62,7 +62,7 @@
 }
 
 - (NSMethodSignature*)methodSignatureForSelector:(SEL)selector {
-    NSMethodSignature* signature = [super methodSignatureForSelector:selector];
+    NSMethodSignature *signature = [super methodSignatureForSelector:selector];
     if (!signature) {
         for (id target in self.weakTargets) {
             signature = [target methodSignatureForSelector:selector];
@@ -75,15 +75,10 @@
 }
 
 - (void)forwardInvocation:(NSInvocation *)anInvocation {
-    BOOL invoke = NO;
     for (id target in self.weakTargets) {
         if ([target respondsToSelector:anInvocation.selector]) {
             [anInvocation invokeWithTarget:target];
-            invoke = YES;
         }
-    }
-    if (!invoke) {
-        [super forwardInvocation:anInvocation];
     }
 }
 
