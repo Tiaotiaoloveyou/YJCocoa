@@ -1,11 +1,6 @@
 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016110201.png)
 
-[![Language: Objective-C](https://img.shields.io/badge/language-Objective%20C-orange.svg?style=flat)](https://developer.apple.com/reference/objectivec)
-[![Platform](https://img.shields.io/cocoapods/p/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/937447974/YJCocoa/blob/master/LICENSE)
-[![CocoaPods](https://img.shields.io/cocoapods/v/YJCocoa.svg?style=flat)](http://cocoapods.org)
-[![Apps](https://img.shields.io/cocoapods/at/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa)
-[![QQ群](https://img.shields.io/badge/QQ群-557445088-blue.svg?style=flat)](https://github.com/937447974)
+[![Language: Objective-C](https://img.shields.io/badge/language-Objective%20C-orange.svg?style=flat)](https://developer.apple.com/reference/objectivec) [![Platform](https://img.shields.io/cocoapods/p/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/937447974/YJCocoa/blob/master/LICENSE) [![CocoaPods](https://img.shields.io/cocoapods/v/YJCocoa.svg?style=flat)](http://cocoapods.org) [![Apps](https://img.shields.io/cocoapods/at/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa) [![QQ群](https://img.shields.io/badge/QQ群-557445088-blue.svg?style=flat)](https://github.com/937447974)
 
 YJ系列开源库
 
@@ -36,8 +31,8 @@ NSFileManager扩展，支持快速移动文件。主要是替换系统方法`mov
 
 ###1.1.5 Http
 
-1. http链接解析，快速获取其中参数，支持URLEncode编码;
-2. http链接组装，快速组装相关参数，支持URLDecode解码。
+1. http链接解析，快速获取其中参数，支持URLDecode解码;
+2. http链接组装，快速组装相关参数，支持URLEncode编码。
 
 ###1.1.6 Log
 
@@ -47,11 +42,15 @@ NSLog打印优化，Unicode自动转化为中文输出。
 
 合并respondsToSelector和performSelector方法，用于安全执行Selector，可携带多个参数
 
-###1.1.8 Singleton
+###1.1.8 Router
+
+Router是NavigationRouter的基础库，主要用于实现组件化开发，也可定制组件化开发方案。
+
+###1.1.9 Singleton
 
 单例管理中心，一行代码即可让当前类转换为单例。
 
-###1.1.9 Timer
+###1.1.10 Timer
 
 替换NSTimer实现相关计时器功能。
 
@@ -60,11 +59,11 @@ NSLog打印优化，Unicode自动转化为中文输出。
 1. 随着应用的回收而回收。
 2. 随着当前使用类的回收而回收。如VC回收时，YJSTimer也会回收。
 
-###1.1.10 URLCode
+###1.1.11 URLCode
 
 URLEncode编码和URLDecode解码
 
-###1.1.11 URLSession
+###1.1.12 URLSession
 
 大型APP网络架构，具有以下特性：
 
@@ -115,7 +114,12 @@ UITextField和UITextView可输入长度控制。
 
 NavigationBar主要实现对UINavigationBar的封装，可快速自定义配置UINavigationBar。
 
-###1.2.6 PageView
+###1.2.6 NavigationRouter
+
+NavigationRouter主要用于实现项目组件化 。
+
+
+###1.2.7 PageView
 
 PageView主要实现对轮播图、导航图、小说翻页等多种翻页模式封装。
 
@@ -123,7 +127,11 @@ PageView主要实现对轮播图、导航图、小说翻页等多种翻页模式
 2. 多种配置模式适应任何多页面需求。
 3. 任何间隔切换VC，内存释放稳定。
 
-###1.2.7 TableViewManager
+###1.2.8 ScrollViewManager
+
+ScrollViewManager主用用于监听UIScrollView的滚动状态。
+
+###1.2.9 TableViewManager
 
 UITableView管理器
 
@@ -139,7 +147,7 @@ UITableView管理器
 	2. 根据NSIndexPath对应的位置缓存高度；
 	3. 根据类名和NSIndexPath双重绑定缓存高度。
 
-###1.2.8 ViewGeometry
+###1.2.10 ViewGeometry
 
 UIView(UIViewGeometry)相关扩展，可快速设置frame、bounds和center。
 
@@ -267,6 +275,13 @@ YJ技术支持群：557445088
 | | | 修复部分警告代码 |
 | 5.2.0 | 2016-12-19 | URLCode上线，支持URLEncode编码和URLDecode解码 |
 | | | Http接入URLCode库，增加参数URLEncode编码和URLDecode解码的方法 |
+| 5.3.0 | 2016-12-20 | Router上线，是NavigationRouter的基础库 |
+| | | NavigationRouter上线，主要用于实现项目组件化 |
+| 5.4.0 | 2016-12-23 | ScrollViewManager上线，支持监听UIScrollView的滚动状态 |
+| | | CollectionViewManager接入ScrollViewManager库实现滑动监听和分页加载 |
+| | | TableViewManager接入ScrollViewManager库实现滑动监听和分页加载 |
+| 5.4.1 | 2016-12-26 | ScrollViewManager支持设置边缘和边界提示区域 |
+| | | Router和NavigationRouter架构升级 |
 
 ##Copyright
 
