@@ -1,13 +1,13 @@
 PODS:
-  - YJCocoa/AppFrameworks/Foundation/AOP (5.4.0)
-  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (5.4.0)
+  - YJCocoa/AppFrameworks/Foundation/AOP (6.2.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (6.2.0)
 
 DEPENDENCIES:
   - YJCocoa/AppFrameworks/Foundation/AOP
   - YJCocoa/AppFrameworks/UIKit/ViewGeometry
 
 SPEC CHECKSUMS:
-  YJCocoa: dbd992035b20983311399310fb61f220b490e152
+  YJCocoa: 30cce39bb154e45a32c5a505e5e8a1b887c32e7c
 
 PODFILE CHECKSUM: 602063eabfbe306ca3f1ce1a7a6b28abdef80a37
 

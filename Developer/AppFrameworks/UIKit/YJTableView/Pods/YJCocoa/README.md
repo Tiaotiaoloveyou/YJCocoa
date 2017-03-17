@@ -1,10 +1,10 @@
 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016110201.png)
 
-[![Language: Objective-C](https://img.shields.io/badge/language-Objective%20C-orange.svg?style=flat)](https://developer.apple.com/reference/objectivec) [![Platform](https://img.shields.io/cocoapods/p/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/937447974/YJCocoa/blob/master/LICENSE) [![CocoaPods](https://img.shields.io/cocoapods/v/YJCocoa.svg?style=flat)](http://cocoapods.org) [![Apps](https://img.shields.io/cocoapods/at/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa) [![QQ群](https://img.shields.io/badge/QQ群-557445088-blue.svg?style=flat)](https://github.com/937447974)
+[![Language: Objective-C](https://img.shields.io/badge/language-Objective%20C-orange.svg?style=flat)](https://developer.apple.com/reference/objectivec) [![Platform](https://img.shields.io/cocoapods/p/YJCocoa.svg?style=flat)](http://cocoadocs.org/docsets/YJCocoa) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/937447974/YJCocoa/blob/master/LICENSE) [![CocoaPods](https://img.shields.io/cocoapods/v/YJCocoa.svg?style=flat)](http://cocoapods.org) ![Apps](https://img.shields.io/cocoapods/at/YJCocoa.svg?style=flat) ![QQ群](https://img.shields.io/badge/QQ群-557445088-blue.svg?style=flat)
 
 YJ系列开源库
 
-1. 支持iOS7.0和Swift开发。
+1. 支持 iOS 7.0 和 Swift 3.0 开发。
 2. 按需加载，可根据自己的需求加载不同的开源库。
 
 整体架构和苹果类似,每一层都有各自的开源库。
@@ -17,40 +17,52 @@ YJ系列开源库
 
 AOP切面编程，将一对一的通信转换为一对多的通信。
 
-###1.1.2 DictionaryModel
+###1.1.2 Calendar
+
+日历工具，快速将秒转换为天、时、分等。
+
+###1.1.3 DictionaryModel
 
 快速高效的转换模型和Model。
 
-###1.1.3 Directory
+###1.1.4 Directory
 
 快速获取应用内目录
 
-###1.1.4 FileManager
+###1.1.5 FileManager
 
 NSFileManager扩展，支持快速移动文件。主要是替换系统方法`moveItemAtPath:toPath:error:`和`moveItemAtURL:toURL:error:`
 
-###1.1.5 Http
+###1.1.6 Http
 
 1. http链接解析，快速获取其中参数，支持URLDecode解码;
 2. http链接组装，快速组装相关参数，支持URLEncode编码。
 
-###1.1.6 Log
+###1.1.7 Log
 
 NSLog打印优化，Unicode自动转化为中文输出。
 
-###1.1.7 PerformSelector
+###1.1.8 PerformSelector
 
 合并respondsToSelector和performSelector方法，用于安全执行Selector，可携带多个参数
 
-###1.1.8 Router
+###1.1.9 Router
 
 Router是NavigationRouter的基础库，主要用于实现组件化开发，也可定制组件化开发方案。
 
-###1.1.9 Singleton
+1. 支持Get或Post跳转；
+2. 支持长连接或短连接。
 
-单例管理中心，一行代码即可让当前类转换为单例。
+###1.1.10 Singleton
 
-###1.1.10 Timer
+1. 通过宏定义，快速将任何类转换为单例类。如`YJNSSingletonW(NSMutableDictionary, @"identifier")`
+2. 可定制全局单例和局域单例。
+
+###1.1.11 Swizzling
+
+支持随时随地交换方法。
+
+###1.1.12 Timer
 
 替换NSTimer实现相关计时器功能。
 
@@ -59,11 +71,11 @@ Router是NavigationRouter的基础库，主要用于实现组件化开发，也�
 1. 随着应用的回收而回收。
 2. 随着当前使用类的回收而回收。如VC回收时，YJSTimer也会回收。
 
-###1.1.11 URLCode
+###1.1.13 URLCode
 
 URLEncode编码和URLDecode解码
 
-###1.1.12 URLSession
+###1.1.14 URLSession
 
 大型APP网络架构，具有以下特性：
 
@@ -163,19 +175,36 @@ CoreData封装
 3. 手动保存数据，支持前台保存和后台保存。
 4. 通过迁移管理器做数据库版本升级时，可时时获取升级进度。
 
-#3 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016101005.png)System
+#3 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016101006.png)DeveloperTools
 
-##3.1 Dispatch
+##3.1 Leaks
+
+内存泄漏分析器，用于捕获项目中有内存泄漏的UIViewController、UIView和Property属性。
+
+##3.2 MemoryInfo
+
+主要用于获取运行过程中的RAM相关信息，如剩余内存。
+
+##3.3 TimeProfiler
+
+时间分析器，主要用于分析引起主线程卡顿的代码。
+
+1. 支持定制模块分析。
+2. 支持设置分析频率和帧间隔。
+
+#4 ![](https://raw.githubusercontent.com/937447974/Blog/master/Resources/2016101005.png)System
+
+##4.1 Dispatch
 
 GCD相关封装
 
-##3.2 Security
+##4.2 Security
 
-###3.2.1 Keychain
+###4.2.1 Keychain
 
 面向对象管理Keychain，支持自定义存储数据。
 
-###3.2.2 Random
+###4.2.2 Random
 
 快速生成指定位数的随机密码。
 
@@ -281,6 +310,32 @@ YJ技术支持群：557445088
 | | | CollectionViewManager接入ScrollViewManager库实现滑动监听和分页加载 |
 | | | TableViewManager接入ScrollViewManager库实现滑动监听和分页加载 |
 | 5.4.1 | 2016-12-26 | ScrollViewManager支持设置边缘和边界提示区域 |
+| | | Router和NavigationRouter架构升级 |
+| 5.5.0 | 2016-12-28 | Router支持Get跳转 |
+| | 2017-01-04 | 修复YJNSTimer超边界计时 |
+| | 2017-01-05 | Calendar上线，支持快速将秒转换为天、时、分等 |
+| | | Timer接入Calendar做时间解析器 |
+| 5.5.1 | 2017-01-09 | URLSession架构升级，支持螺旋开发架构 |
+| 6.0.0 | 2017-01-10 | Dispatch增加创建GCD倒计时的方法 |
+| | 2017-01-10 | TimeProfiler上线，支持抓取主线程耗性能的代码 |
+| | 2017-01-11 | DeveloperTools层上线，集成相关开发工具 |
+| | 2017-01-12 | Swizzling上线，支持随时随地交换方法。 |
+| | 2017-01-13 | Leaks上线，用于捕获项目中有内存泄漏的UIViewController、UIView和Property属性。 |
+| 6.0.1 | 2017-01-17 | Swizzling和Leaks log打印优化 |
+| | 2017-01-18 | Timer倒计时time=0时自动失效，正计时去掉上限 |
+| 6.0.2 | 2017-02-04 | 修复Http URLEncode解析崩溃 |
+| 6.1.0 | 2017-02-09 | TimeProfiler支持直接打印主线程卡顿堆栈信息 |
+| | | PageView架构升级 |
+| | 2017-02-12 | Swizzling增加class方法交换 |
+| | 2017-02-14 | URLSession架构升级 |
+| 6.2.0 | 2017-03-01 | NavigationBar修复部分机型启动崩溃错误 |
+| | 2017-03-02 | Singleton性能优化，启用pthread_mutex锁 |
+| | 2017-03-13 | Dispatch增加pthread锁架构 |
+| | 2017-03-13 | Router和NavigationRouter架构升级 |
+| | 2017-03-13 | TimeProfiler启用RunLoop监听主线程 |
+| | 2017-03-13 | Singleton增加单例宏 |
+| | 2017-03-14 | DictionaryModel、Directory、Router、Swizzling、Timer、URLSession、CoreData、Leaks和TimeProfiler库启用Singleton单例宏 |
+| | 2017-03-15 | MemoryInfo上线，主要用于获取运行过程中的RAM相关信息，如剩余内存。|
 
 ##Copyright
 
