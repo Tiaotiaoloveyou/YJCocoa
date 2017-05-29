@@ -1,11 +1,11 @@
 PODS:
-  - YJCocoa/AppFrameworks/Foundation/AOP (6.2.0)
-  - YJCocoa/AppFrameworks/Foundation/Other (6.2.0)
-  - YJCocoa/AppFrameworks/UIKit/ScrollViewManager (6.2.0):
+  - YJCocoa/AppFrameworks/Foundation/AOP (6.4.0)
+  - YJCocoa/AppFrameworks/Foundation/Other (6.4.0)
+  - YJCocoa/AppFrameworks/UIKit/ScrollViewManager (6.4.0):
     - YJCocoa/AppFrameworks/Foundation/AOP
     - YJCocoa/AppFrameworks/UIKit/ViewGeometry
-  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (6.2.0)
-  - YJCocoa/System/Dispatch (6.2.0)
+  - YJCocoa/AppFrameworks/UIKit/ViewGeometry (6.4.0)
+  - YJCocoa/System/Dispatch (6.4.0)
 
 DEPENDENCIES:
   - YJCocoa/AppFrameworks/Foundation/Other
@@ -13,8 +13,8 @@ DEPENDENCIES:
   - YJCocoa/System/Dispatch
 
 SPEC CHECKSUMS:
-  YJCocoa: 30cce39bb154e45a32c5a505e5e8a1b887c32e7c
+  YJCocoa: 6f035007cb154b26bbbb1f084181d5e163807eb9
 
 PODFILE CHECKSUM: 95d55a086d1cb04bebf1eaec3395f35a7157b621
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1
